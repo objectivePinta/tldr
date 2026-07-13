@@ -1,0 +1,12 @@
+{
+  "short_name": "TLDR",
+  "name": "Prea Lung! N-am citit! stiri scurte",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "./?utm_source=homescreen",
+  "background_color": "#f4f7fb",
+  "theme_color": "#f4f7fb"
+}
