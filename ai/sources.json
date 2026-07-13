@@ -19,6 +19,10 @@
     "parteneriat",
     "promo"
   ],
+  "subreddits": [
+    "worldnews",
+    "technology"
+  ],
   "rss": [
     {
       "name": "HotNews - Actualitate",
@@ -27,14 +31,6 @@
     {
       "name": "Digi24 - Politica",
       "url": "https://www.digi24.ro/rss"
-    },
-    {
-      "name": "Reddit r/worldnews (RSS)",
-      "url": "https://www.reddit.com/r/worldnews/.rss"
-    },
-    {
-      "name": "Reddit r/technology (RSS)",
-      "url": "https://www.reddit.com/r/technology/.rss"
     }
   ],
   "reddit": []

@@ -86,6 +86,28 @@ function normalizeUrl(input) {
   }
 }
 
+function normalizeSubredditName(input) {
+  return String(input || '')
+    .trim()
+    .replace(/^https?:\/\/www\.reddit\.com\//i, '')
+    .replace(/^r\//i, '')
+    .replace(/^\/?r\//i, '')
+    .replace(/^\/+|\/+$/g, '')
+    .replace(/\.rss$/i, '');
+}
+
+function buildRedditRssSource(subredditName) {
+  const normalized = normalizeSubredditName(subredditName);
+  if (!normalized) {
+    return null;
+  }
+
+  return {
+    name: `Reddit r/${normalized} (RSS)`,
+    url: `https://www.reddit.com/r/${normalized}/.rss`,
+  };
+}
+
 function getHostname(input) {
   try {
     return new URL(normalizeUrl(input)).hostname.toLowerCase();
@@ -115,6 +137,26 @@ function getFilteringRules(sourceConfig) {
   return {
     allowedDomains: configuredDomains.map((entry) => entry.toLowerCase()),
     blockedPatterns: configuredPatterns.map((entry) => entry.toLowerCase()),
+  };
+}
+
+function getConfiguredSubreddits(sourceConfig) {
+  const envSubreddits = parseCsvEnv(process.env.REDDIT_SUBREDDITS);
+  const configured = envSubreddits.length ? envSubreddits : (sourceConfig.subreddits || []);
+
+  return [...new Set(configured.map(normalizeSubredditName).filter(Boolean))];
+}
+
+function normalizeSourceConfig(sourceConfig) {
+  const subreddits = getConfiguredSubreddits(sourceConfig);
+  const redditRssSources = subreddits
+    .map(buildRedditRssSource)
+    .filter(Boolean);
+
+  return {
+    rss: [...(sourceConfig.rss || []), ...redditRssSources],
+    reddit: sourceConfig.reddit || [],
+    subreddits,
   };
 }
 
@@ -423,13 +465,17 @@ function runSelfTest() {
   );
   assert.strictEqual(isAllowedDomain('https://www.digi24.ro/stire', ['digi24.ro']), true);
   assert.strictEqual(isAllowedDomain('https://spam.example.org/post', ['digi24.ro']), false);
+  assert.strictEqual(normalizeSubredditName('r/worldnews'), 'worldnews');
+  assert.strictEqual(normalizeSubredditName('https://www.reddit.com/r/technology/'), 'technology');
+  assert.strictEqual(buildRedditRssSource('technology').url, 'https://www.reddit.com/r/technology/.rss');
   console.log('Self-test passed.');
 }
 
 async function collectCandidates(sourceConfig) {
   const all = [];
+  const normalizedSources = normalizeSourceConfig(sourceConfig);
 
-  for (const source of sourceConfig.rss || []) {
+  for (const source of normalizedSources.rss) {
     try {
       const items = await fetchRssFeed(source);
       all.push(...items);
@@ -438,13 +484,17 @@ async function collectCandidates(sourceConfig) {
     }
   }
 
-  for (const source of sourceConfig.reddit || []) {
+  for (const source of normalizedSources.reddit) {
     try {
       const items = await fetchRedditFeed(source);
       all.push(...items);
     } catch (error) {
       console.warn(`[WARN] ${error.message}`);
     }
+  }
+
+  if (normalizedSources.subreddits.length) {
+    console.log(`Configured subreddits: ${normalizedSources.subreddits.join(', ')}`);
   }
 
   return all.filter(isValidCandidate);

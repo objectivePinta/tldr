@@ -126,7 +126,7 @@ Pipeline-ul AI este in `scripts/news-pipeline.js` si ruleaza local sau din GitHu
 
 ### Fisiere noi pentru AI
 - `scripts/news-pipeline.js` - colectare RSS/Reddit, dedup, sumarizare, safety, publish
-- `ai/sources.json` - sursele monitorizate + whitelist de domenii + cuvinte blocate
+- `ai/sources.json` - sursele monitorizate + subreddituri + whitelist de domenii + cuvinte blocate
 - `prompts/summarize-ro.md` - prompt sumarizare in romana
 - `prompts/safety-check-ro.md` - prompt validare risc legal/editorial
 - `.github/workflows/news-pipeline.yml` - rulare programata (cron) + manual
@@ -156,8 +156,35 @@ $env:OPENAI_API_KEY="<cheia-ta>"
 $env:OPENAI_MODEL="gpt-4o-mini"
 $env:ALLOWED_DOMAINS="hotnews.ro,digi24.ro,reuters.com,bbc.com,theverge.com,techcrunch.com"
 $env:BLOCKED_PATTERNS="[P],sponsorizat,publicitate,advertorial,parteneriat,promo"
+$env:REDDIT_SUBREDDITS="worldnews,technology,europe"
 npm run ai:run
 ```
+
+### Unde adaugi subreddituri
+
+Ai doua variante:
+
+1. In `ai/sources.json`
+
+```json
+{
+  "subreddits": ["worldnews", "technology", "europe"]
+}
+```
+
+2. Din environment, fara sa modifici fisierul:
+
+```powershell
+$env:REDDIT_SUBREDDITS="worldnews,technology,europe,romania"
+npm run ai:dry-run
+```
+
+Accepta forme precum:
+- `worldnews`
+- `r/worldnews`
+- `https://www.reddit.com/r/worldnews/`
+
+Pipeline-ul le transforma automat in feed-uri RSS Reddit.
 
 ### Filtrare anti-advertorial si whitelist
 
@@ -174,6 +201,7 @@ Exemplu `ai/sources.json`:
 
 ```json
 {
+  "subreddits": ["worldnews", "technology"],
   "allowedDomains": ["hotnews.ro", "digi24.ro", "bbc.com"],
   "blockedPatterns": ["[P]", "sponsorizat", "advertorial"],
   "rss": [],
