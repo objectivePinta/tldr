@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Prea Lung! N-am citit! stiri scurte</title>
-    <link>https://tldr.ro/</link>
+    <link>https://objectivepinta.github.io/tldr/</link>
     <description>Stiri scurte in romana: esentialul zilei in 20-40 de secunde, cu link direct catre articolul complet.</description>
     <language>ro</language>
     <lastBuildDate>2026-07-13T10:15:00+03:00</lastBuildDate>
     <image>
-      <url>https://tldr.ro/icon.png</url>
+      <url>https://objectivepinta.github.io/tldr/icon.png</url>
       <title>Prea Lung! N-am citit! stiri scurte</title>
-      <link>https://tldr.ro/</link>
+      <link>https://objectivepinta.github.io/tldr/</link>
     </image>
     <item>
       <title>Un nou model AI open-source promite costuri mai mici pentru redactii</title>
@@ -17,7 +17,7 @@
       <category>Tech</category>
       <pubDate>2026-07-13T09:10:00+03:00</pubDate>
       <description><![CDATA[Un model AI open-source orientat pe sumarizare in limba romana poate reduce costul per articol pentru redacii mici. De ce conteaza: publicarea mai rapida si mai ieftina poate creste numarul de stiri procesate zilnic.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-tech-ai">Tech Monitor</source>
     </item>
     <item>
@@ -26,7 +26,7 @@
       <category>Politica</category>
       <pubDate>2026-07-13T08:20:00+03:00</pubDate>
       <description><![CDATA[Comisiile parlamentare au inceput dezbaterile pe un pachet nou de investitii in servicii publice digitale. De ce conteaza: implementarea poate reduce timpii de asteptare pentru documente si plati catre stat.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-politica-buget">Actual Politic</source>
     </item>
     <item>
@@ -35,7 +35,7 @@
       <category>Amuzante</category>
       <pubDate>2026-07-13T10:15:00+03:00</pubDate>
       <description><![CDATA[Un oras mic a devenit viral dupa o parada tematica filmata de turisti si postata pe social media. De ce conteaza: evenimentele locale pot atrage turism si vizibilitate nationala cu bugete mici.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-amuzanta-parada">Stiri Usoare</source>
     </item>
     <item>
@@ -44,7 +44,7 @@
       <category>Tragedii</category>
       <pubDate>2026-07-13T06:45:00+03:00</pubDate>
       <description><![CDATA[Echipele ISU au evacuat zeci de persoane dupa ploi abundente si cresterea rapida a nivelului apei. De ce conteaza: riscul meteo extrem ramane ridicat, iar autoritatile recomanda monitorizarea alertelor.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-tragedie-inundatii">Observator Regional</source>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <category>Tech</category>
       <pubDate>2026-07-12T18:00:00+03:00</pubDate>
       <description><![CDATA[Mai multi operatori au anuntat acoperire extinsa 5G in trimestrul urmator pentru orase medii. De ce conteaza: viteze mai bune de internet ajuta munca remote, educatia online si serviciile digitale.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-tech-5g">Economia Azi</source>
     </item>
     <item>
@@ -62,7 +62,7 @@
       <category>Politica</category>
       <pubDate>2026-07-12T14:25:00+03:00</pubDate>
       <description><![CDATA[Ministerul de resort a publicat un ghid simplificat pentru proiecte locale finantate din fonduri europene. De ce conteaza: proiectele pot porni mai repede daca administratiile locale depun corect documentatia.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-politica-fonduri">Agenda Publica</source>
     </item>
     <item>
@@ -71,7 +71,7 @@
       <category>Amuzante</category>
       <pubDate>2026-07-12T11:05:00+03:00</pubDate>
       <description><![CDATA[O pisica adoptata de angajatii unei primarii a strans mii de reactii dupa ce a aparut intr-un live oficial. De ce conteaza: continutul pozitiv poate creste engagementul comunitatii locale.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-amuzanta-pisica">Buzz Local</source>
     </item>
     <item>
@@ -80,7 +80,7 @@
       <category>Tragedii</category>
       <pubDate>2026-07-12T07:40:00+03:00</pubDate>
       <description><![CDATA[Autoritatile au inchis temporar o banda pentru interventie, iar traficul a fost deviat pe rute alternative. De ce conteaza: informarea rapida despre rute alternative reduce blocajele si riscul unor incidente noi.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-tragedie-accident">Info Trafic</source>
     </item>
     <item>
@@ -89,7 +89,7 @@
       <category>Tech</category>
       <pubDate>2026-07-11T16:30:00+03:00</pubDate>
       <description><![CDATA[Un startup local a lansat o platforma care detecteaza oportunitati de continut si probleme tehnice SEO. De ce conteaza: site-urile de stiri pot creste mai rapid traficul organic daca optimizeaza titlurile si viteza paginii.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-tech-seo-ai">Startup Radar</source>
     </item>
     <item>
@@ -98,7 +98,7 @@
       <category>Politica</category>
       <pubDate>2026-07-11T10:10:00+03:00</pubDate>
       <description><![CDATA[Autoritatile pregatesc consultari publice pentru reguli de transparenta la continutul creat cu AI. De ce conteaza: redactiile care eticheteaza clar continutul asistat de AI vor castiga mai multa incredere.]]></description>
-      <media:content url="https://tldr.ro/icon.png" medium="image" />
+      <media:content url="https://objectivepinta.github.io/tldr/icon.png" medium="image" />
       <source url="https://example.com/stire-politica-ai-reguli">Forum Civic</source>
     </item>
   </channel>

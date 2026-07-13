@@ -4,5 +4,5 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tldr.ro/sitemap.xml
+Sitemap: https://objectivepinta.github.io/tldr/sitemap.xml
 
