@@ -120,6 +120,56 @@ Pentru a face feed.xml dinamic (generat automat din `news.json`), poti folosi:
 - Zapier/IFTTT pe feed.xml → Telegram, X, Facebook
 - AI autopublishing (pasul 5 din PLAN_TLDR.md)
 
+## AI autopublishing (implementat)
+
+Pipeline-ul AI este in `scripts/news-pipeline.js` si ruleaza local sau din GitHub Actions.
+
+### Fisiere noi pentru AI
+- `scripts/news-pipeline.js` - colectare RSS/Reddit, dedup, sumarizare, safety, publish
+- `ai/sources.json` - sursele monitorizate
+- `prompts/summarize-ro.md` - prompt sumarizare in romana
+- `prompts/safety-check-ro.md` - prompt validare risc legal/editorial
+- `.github/workflows/news-pipeline.yml` - rulare programata (cron) + manual
+
+### Cum rulezi local
+
+```powershell
+# verifica utilitarele pipeline (fara internet)
+npm run ai:self-test
+
+# ruleaza pipeline pe surse reale, fara sa scrie fisiere
+npm run ai:dry-run
+
+# ruleaza pipeline si actualizeaza js/news.json + feed.xml + sitemap.xml
+npm run ai:run
+```
+
+### Configurare AI provider
+
+Pipeline-ul foloseste API OpenAI-compatible daca exista cheia `OPENAI_API_KEY`.
+Fara cheie, intra automat in fallback heuristic (tot produce drafturi).
+
+Poti porni de la `\.env.example` pentru variabilele locale.
+
+```powershell
+$env:OPENAI_API_KEY="<cheia-ta>"
+$env:OPENAI_MODEL="gpt-4o-mini"
+npm run ai:run
+```
+
+### Setari GitHub (pentru automatizare completa)
+1. Repo -> `Settings -> Secrets and variables -> Actions`
+2. Adauga:
+   - `OPENAI_API_KEY`
+   - `OPENAI_MODEL` (optional, ex: `gpt-4o-mini`)
+3. Workflow-ul `AI News Pipeline` ruleaza automat la orele din cron si poate fi pornit manual din `Actions`.
+
+### Guardrails incluse
+- deduplicare prin `fingerprint`
+- `needsHumanReview=true` implicit pe subiecte `politics`/`tragedy`
+- blocare auto-publicare pentru `legalRisk=high`
+- sursa obligatorie (`sourceUrl`, `sourceName`)
+
 ## Dosare importante
 
 - **PLAN_TLDR.md** - strategie completă: branding, AI autopublishing, analytics, roadmap
