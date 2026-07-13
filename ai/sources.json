@@ -1,4 +1,24 @@
 {
+  "allowedDomains": [
+    "hotnews.ro",
+    "digi24.ro",
+    "reddit.com",
+    "bbc.com",
+    "reuters.com",
+    "apnews.com",
+    "theverge.com",
+    "techcrunch.com",
+    "arstechnica.com",
+    "wired.com"
+  ],
+  "blockedPatterns": [
+    "[P]",
+    "sponsorizat",
+    "publicitate",
+    "advertorial",
+    "parteneriat",
+    "promo"
+  ],
   "rss": [
     {
       "name": "HotNews - Actualitate",

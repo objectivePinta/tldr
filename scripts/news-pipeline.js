@@ -17,6 +17,14 @@ const SITEMAP_PATH = path.join(ROOT, 'sitemap.xml');
 const SITE_URL = process.env.SITE_URL || 'https://objectivepinta.github.io/tldr/';
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+const DEFAULT_BLOCKED_PATTERNS = ['[p]', 'sponsorizat', 'publicitate', 'advertorial', 'parteneriat', 'promo'];
+
+function parseCsvEnv(value) {
+  return String(value || '')
+    .split(',')
+    .map((entry) => entry.trim())
+    .filter(Boolean);
+}
 
 function parseArgs(argv) {
   const flags = new Set(argv.filter((arg) => arg.startsWith('--')));
@@ -76,6 +84,73 @@ function normalizeUrl(input) {
   } catch (error) {
     return input.trim();
   }
+}
+
+function getHostname(input) {
+  try {
+    return new URL(normalizeUrl(input)).hostname.toLowerCase();
+  } catch (error) {
+    return '';
+  }
+}
+
+function matchesDomainRule(hostname, domainRule) {
+  const normalizedRule = String(domainRule || '').toLowerCase().trim();
+  if (!hostname || !normalizedRule) {
+    return false;
+  }
+
+  return hostname === normalizedRule || hostname.endsWith(`.${normalizedRule}`);
+}
+
+function getFilteringRules(sourceConfig) {
+  const configuredDomains = parseCsvEnv(process.env.ALLOWED_DOMAINS).length
+    ? parseCsvEnv(process.env.ALLOWED_DOMAINS)
+    : (sourceConfig.allowedDomains || []);
+
+  const configuredPatterns = parseCsvEnv(process.env.BLOCKED_PATTERNS).length
+    ? parseCsvEnv(process.env.BLOCKED_PATTERNS)
+    : (sourceConfig.blockedPatterns || DEFAULT_BLOCKED_PATTERNS);
+
+  return {
+    allowedDomains: configuredDomains.map((entry) => entry.toLowerCase()),
+    blockedPatterns: configuredPatterns.map((entry) => entry.toLowerCase()),
+  };
+}
+
+function isAdvertorialCandidate(candidate, blockedPatterns) {
+  const haystack = `${candidate.title} ${candidate.description} ${candidate.sourceName}`.toLowerCase();
+  return blockedPatterns.some((pattern) => haystack.includes(String(pattern).toLowerCase()));
+}
+
+function isAllowedDomain(url, allowedDomains) {
+  if (!allowedDomains.length) {
+    return true;
+  }
+
+  const hostname = getHostname(url);
+  return allowedDomains.some((domainRule) => matchesDomainRule(hostname, domainRule));
+}
+
+function filterCandidates(candidates, filteringRules) {
+  const accepted = [];
+  const skipped = [];
+
+  candidates.forEach((candidate) => {
+    if (isAdvertorialCandidate(candidate, filteringRules.blockedPatterns)) {
+      skipped.push({ candidate, reason: 'blocked-pattern' });
+      return;
+    }
+
+    if (!isAllowedDomain(candidate.url, filteringRules.allowedDomains)) {
+      skipped.push({ candidate, reason: 'domain-not-allowlisted' });
+      return;
+    }
+
+    accepted.push(candidate);
+  });
+
+  return { accepted, skipped };
 }
 
 function slugify(input) {
@@ -337,6 +412,17 @@ function runSelfTest() {
   assert.strictEqual(inferCategory('Noutati AI si startup'), 'tech');
   assert.strictEqual(inferCategory('Accident grav pe autostrada'), 'tragedy');
   assert.ok(slugify('Știre Nouă!').startsWith('stire-noua'));
+  assert.strictEqual(matchesDomainRule('news.hotnews.ro', 'hotnews.ro'), true);
+  assert.strictEqual(matchesDomainRule('example.net', 'hotnews.ro'), false);
+  assert.strictEqual(
+    isAdvertorialCandidate(
+      { title: '[P] Oferta speciala', description: 'publicitate', sourceName: 'Exemplu' },
+      DEFAULT_BLOCKED_PATTERNS,
+    ),
+    true,
+  );
+  assert.strictEqual(isAllowedDomain('https://www.digi24.ro/stire', ['digi24.ro']), true);
+  assert.strictEqual(isAllowedDomain('https://spam.example.org/post', ['digi24.ro']), false);
   console.log('Self-test passed.');
 }
 
@@ -374,12 +460,22 @@ async function main() {
   const summarizePrompt = fs.readFileSync(PROMPT_SUMMARIZE_PATH, 'utf8');
   const safetyPrompt = fs.readFileSync(PROMPT_SAFETY_PATH, 'utf8');
   const sourceConfig = readJson(SOURCES_PATH);
+  const filteringRules = getFilteringRules(sourceConfig);
   const existingNews = readJson(NEWS_JSON_PATH);
 
   const existingFingerprints = new Set(existingNews.map((item) => item.fingerprint || makeFingerprint(item.sourceUrl, item.title)));
   const candidates = await collectCandidates(sourceConfig);
+  const { accepted: filteredCandidates, skipped: skippedCandidates } = filterCandidates(candidates, filteringRules);
 
-  const freshCandidates = candidates.filter((candidate) => !existingFingerprints.has(makeFingerprint(candidate.url, candidate.title)));
+  if (skippedCandidates.length) {
+    const skipSummary = skippedCandidates.reduce((accumulator, item) => {
+      accumulator[item.reason] = (accumulator[item.reason] || 0) + 1;
+      return accumulator;
+    }, {});
+    console.log(`Filtered out ${skippedCandidates.length} candidate(s): ${JSON.stringify(skipSummary)}`);
+  }
+
+  const freshCandidates = filteredCandidates.filter((candidate) => !existingFingerprints.has(makeFingerprint(candidate.url, candidate.title)));
   const limited = freshCandidates.slice(0, Math.max(1, options.maxItems));
 
   const generatedNews = [];

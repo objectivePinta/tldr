@@ -126,7 +126,7 @@ Pipeline-ul AI este in `scripts/news-pipeline.js` si ruleaza local sau din GitHu
 
 ### Fisiere noi pentru AI
 - `scripts/news-pipeline.js` - colectare RSS/Reddit, dedup, sumarizare, safety, publish
-- `ai/sources.json` - sursele monitorizate
+- `ai/sources.json` - sursele monitorizate + whitelist de domenii + cuvinte blocate
 - `prompts/summarize-ro.md` - prompt sumarizare in romana
 - `prompts/safety-check-ro.md` - prompt validare risc legal/editorial
 - `.github/workflows/news-pipeline.yml` - rulare programata (cron) + manual
@@ -154,7 +154,31 @@ Poti porni de la `\.env.example` pentru variabilele locale.
 ```powershell
 $env:OPENAI_API_KEY="<cheia-ta>"
 $env:OPENAI_MODEL="gpt-4o-mini"
+$env:ALLOWED_DOMAINS="hotnews.ro,digi24.ro,reuters.com,bbc.com,theverge.com,techcrunch.com"
+$env:BLOCKED_PATTERNS="[P],sponsorizat,publicitate,advertorial,parteneriat,promo"
 npm run ai:run
+```
+
+### Filtrare anti-advertorial si whitelist
+
+Pipeline-ul filtreaza candidatii inainte de AI:
+- respinge articole cu pattern-uri de advertorial (`[P]`, `sponsorizat`, `publicitate`, `advertorial` etc.)
+- accepta doar domenii din whitelist
+- suporta subdomenii (`www.digi24.ro` este acceptat pentru regula `digi24.ro`)
+
+Ordinea configurarii:
+1. daca exista `ALLOWED_DOMAINS` / `BLOCKED_PATTERNS` in environment, ele au prioritate
+2. altfel se foloseste configuratia din `ai/sources.json`
+
+Exemplu `ai/sources.json`:
+
+```json
+{
+  "allowedDomains": ["hotnews.ro", "digi24.ro", "bbc.com"],
+  "blockedPatterns": ["[P]", "sponsorizat", "advertorial"],
+  "rss": [],
+  "reddit": []
+}
 ```
 
 ### Setari GitHub (pentru automatizare completa)
@@ -169,6 +193,8 @@ npm run ai:run
 - `needsHumanReview=true` implicit pe subiecte `politics`/`tragedy`
 - blocare auto-publicare pentru `legalRisk=high`
 - sursa obligatorie (`sourceUrl`, `sourceName`)
+- whitelist de domenii pentru auto-publicare
+- blocare advertoriale / continut promo marcat
 
 ## Dosare importante
 
