@@ -19,12 +19,19 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const DEFAULT_BLOCKED_PATTERNS = ['[p]', 'sponsorizat', 'publicitate', 'advertorial', 'parteneriat', 'promo'];
 const BOT_USER_AGENT = 'TLDRBot/1.0 (+https://objectivepinta.github.io/tldr/)';
+const REQUIRE_OPENAI_SUMMARY = /^true$/i.test(String(process.env.REQUIRE_OPENAI_SUMMARY || 'false'));
+const OPENAI_MAX_RETRIES = Math.max(1, Number(process.env.OPENAI_MAX_RETRIES || 3));
+const OPENAI_RETRY_BASE_MS = Math.max(250, Number(process.env.OPENAI_RETRY_BASE_MS || 1200));
 
 function parseCsvEnv(value) {
   return String(value || '')
     .split(',')
     .map((entry) => entry.trim())
     .filter(Boolean);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function parseArgs(argv) {
@@ -304,30 +311,49 @@ function fallbackSummarize(candidate) {
 }
 
 async function callOpenAI(promptText) {
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: OPENAI_MODEL,
-      temperature: 0.2,
-      response_format: { type: 'json_object' },
-      messages: [
-        { role: 'system', content: 'Return JSON only.' },
-        { role: 'user', content: promptText },
-      ],
-    }),
-  });
+  let lastError = null;
 
-  if (!response.ok) {
-    throw new Error(`OpenAI error ${response.status}`);
+  for (let attempt = 1; attempt <= OPENAI_MAX_RETRIES; attempt += 1) {
+    try {
+      const response = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${OPENAI_API_KEY}`,
+        },
+        body: JSON.stringify({
+          model: OPENAI_MODEL,
+          temperature: 0.2,
+          response_format: { type: 'json_object' },
+          messages: [
+            { role: 'system', content: 'Return JSON only.' },
+            { role: 'user', content: promptText },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        const shouldRetry = response.status === 429 || response.status >= 500;
+        if (shouldRetry && attempt < OPENAI_MAX_RETRIES) {
+          await sleep(OPENAI_RETRY_BASE_MS * attempt);
+          continue;
+        }
+        throw new Error(`OpenAI error ${response.status}`);
+      }
+
+      const payload = await response.json();
+      const content = payload.choices?.[0]?.message?.content || '{}';
+      return JSON.parse(content);
+    } catch (error) {
+      lastError = error;
+      if (attempt < OPENAI_MAX_RETRIES) {
+        await sleep(OPENAI_RETRY_BASE_MS * attempt);
+        continue;
+      }
+    }
   }
 
-  const payload = await response.json();
-  const content = payload.choices?.[0]?.message?.content || '{}';
-  return JSON.parse(content);
+  throw lastError || new Error('OpenAI request failed');
 }
 
 async function summarizeCandidate(candidate, summarizePrompt, safetyPrompt) {
@@ -338,6 +364,7 @@ async function summarizeCandidate(candidate, summarizePrompt, safetyPrompt) {
       legalRisk: fallback.needsHumanReview ? 'medium' : 'low',
       safetyReason: 'Fallback mode without OPENAI_API_KEY',
       generatedBy: 'fallback-heuristic',
+      usedFallback: true,
     };
   }
 
@@ -364,6 +391,7 @@ async function summarizeCandidate(candidate, summarizePrompt, safetyPrompt) {
       legalRisk: ['low', 'medium', 'high'].includes(safety.legalRisk) ? safety.legalRisk : 'medium',
       safetyReason: String(safety.reason || 'Safety validation completed').slice(0, 180),
       generatedBy: OPENAI_MODEL,
+      usedFallback: false,
     };
   } catch (error) {
     return {
@@ -371,6 +399,7 @@ async function summarizeCandidate(candidate, summarizePrompt, safetyPrompt) {
       legalRisk: fallback.needsHumanReview ? 'medium' : 'low',
       safetyReason: `Fallback after AI error: ${error.message}`,
       generatedBy: 'fallback-heuristic',
+      usedFallback: true,
     };
   }
 }
@@ -609,6 +638,10 @@ async function main() {
     }
 
     const summaryData = await summarizeCandidate(candidate, summarizePrompt, safetyPrompt);
+    if (REQUIRE_OPENAI_SUMMARY && summaryData.usedFallback) {
+      continue;
+    }
+
     const canAutoPublish = summaryData.legalRisk !== 'high' && (summaryData.confidenceScore >= 0.72 || summaryData.needsHumanReview);
     if (!canAutoPublish) {
       continue;
