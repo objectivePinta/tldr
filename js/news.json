@@ -1,29 +1,45 @@
 [
   {
-    "id": "2026-07-13-001",
-    "category": "tech",
-    "title": "Un nou model AI open-source promite costuri mai mici pentru redactii",
-    "summary": "TLDR: Un model AI open-source orientat pe sumarizare in limba romana poate reduce costul per articol pentru redacii mici.",
-    "whyItMatters": "De ce conteaza: publicarea mai rapida si mai ieftina poate creste numarul de stiri procesate zilnic.",
+    "id": "2026-07-14-011-de-la-berlin-coman",
+    "category": "politics",
+    "title": "De la Berlin, comandantul forțelor aeriene ale Germaniei lansează un avertisment",
+    "summary": "TLDR: Șeful forțelor aeriene ale Germaniei a avertizat că Berlinul trebuie să cumpere deocamdată arme cu eficacitate dovedită, precum avioanele de vânătoare din SUA, pentru a contracara ",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
     "image": "icon.png",
-    "imageAlt": "Ilustratie tehnologie AI",
-    "sourceName": "Tech Monitor",
-    "sourceUrl": "https://example.com/stire-tech-ai",
-    "publishedAt": "2026-07-13T09:10:00+03:00",
-    "isPick": true
+    "imageAlt": "De la Berlin, comandantul forțelor aeriene ale Germaniei lansează un avertisment",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/avertismentul-comandantului-luftwaffe-pentru-germania-si-restul-europei-in-acest-moment-nu-avem-timp-2299787",
+    "publishedAt": "2026-07-14T05:51:35.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8222d9241c0b22444fe0d1dfb0bf57812de60506",
+    "confidenceScore": 0.55,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "Fallback mode without OPENAI_API_KEY",
+    "generatedBy": "fallback-heuristic",
+    "generatedAt": "2026-07-14T06:22:17.837Z"
   },
   {
-    "id": "2026-07-13-002",
+    "id": "2026-07-14-012-cine-este-al-treil",
     "category": "politics",
-    "title": "Parlamentul discuta bugetul pentru digitalizarea administratiei",
-    "summary": "TLDR: Comisiile parlamentare au inceput dezbaterile pe un pachet nou de investitii in servicii publice digitale.",
-    "whyItMatters": "De ce conteaza: implementarea poate reduce timpii de asteptare pentru documente si plati catre stat.",
+    "title": "Cine este al treilea membru al Biroului Politic din China epurat de Xi Jinping î",
+    "summary": "TLDR: Înaltul oficial chinez Ma Xingrui a fost expulzat din Partidul Comunist pentru corupție, scrie Reuters. Ancheta, spun analiștii, reflectă centralizarea continuă a puterii sub condu",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
     "image": "icon.png",
-    "imageAlt": "Cladire guvernamentala",
-    "sourceName": "Actual Politic",
-    "sourceUrl": "https://example.com/stire-politica-buget",
-    "publishedAt": "2026-07-13T08:20:00+03:00",
-    "isPick": true
+    "imageAlt": "Cine este al treilea membru al Biroului Politic din China epurat de Xi Jinping î",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/al-treilea-membru-al-biroului-politic-din-china-epurat-de-xi-jinping-intr-o-perioada-scurta-de-timp-si-a-pierdut-idealurile-si-convingerile-2299765",
+    "publishedAt": "2026-07-14T05:25:46.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "61f6ffaf4c086fe91b05b1e20e96ff7d83e182e7",
+    "confidenceScore": 0.55,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "Fallback mode without OPENAI_API_KEY",
+    "generatedBy": "fallback-heuristic",
+    "generatedAt": "2026-07-14T06:22:17.837Z"
   },
   {
     "id": "2026-07-13-003",
@@ -36,7 +52,36 @@
     "sourceName": "Stiri Usoare",
     "sourceUrl": "https://example.com/stire-amuzanta-parada",
     "publishedAt": "2026-07-13T10:15:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "2553d4f3fca80ec1ee5361a6254fa0f908401ecb"
+  },
+  {
+    "id": "2026-07-13-001",
+    "category": "tech",
+    "title": "Un nou model AI open-source promite costuri mai mici pentru redactii",
+    "summary": "TLDR: Un model AI open-source orientat pe sumarizare in limba romana poate reduce costul per articol pentru redacii mici.",
+    "whyItMatters": "De ce conteaza: publicarea mai rapida si mai ieftina poate creste numarul de stiri procesate zilnic.",
+    "image": "icon.png",
+    "imageAlt": "Ilustratie tehnologie AI",
+    "sourceName": "Tech Monitor",
+    "sourceUrl": "https://example.com/stire-tech-ai",
+    "publishedAt": "2026-07-13T09:10:00+03:00",
+    "isPick": true,
+    "fingerprint": "43ab3a05798d983e82d6eae116f5f73c6f8b6943"
+  },
+  {
+    "id": "2026-07-13-002",
+    "category": "politics",
+    "title": "Parlamentul discuta bugetul pentru digitalizarea administratiei",
+    "summary": "TLDR: Comisiile parlamentare au inceput dezbaterile pe un pachet nou de investitii in servicii publice digitale.",
+    "whyItMatters": "De ce conteaza: implementarea poate reduce timpii de asteptare pentru documente si plati catre stat.",
+    "image": "icon.png",
+    "imageAlt": "Cladire guvernamentala",
+    "sourceName": "Actual Politic",
+    "sourceUrl": "https://example.com/stire-politica-buget",
+    "publishedAt": "2026-07-13T08:20:00+03:00",
+    "isPick": true,
+    "fingerprint": "8d2efa666d0f61fc7776bc001bbe81643f553a11"
   },
   {
     "id": "2026-07-13-004",
@@ -49,7 +94,8 @@
     "sourceName": "Observator Regional",
     "sourceUrl": "https://example.com/stire-tragedie-inundatii",
     "publishedAt": "2026-07-13T06:45:00+03:00",
-    "isPick": true
+    "isPick": true,
+    "fingerprint": "c45e201b094b23e9b658e31fb54e4754b7d135a7"
   },
   {
     "id": "2026-07-13-005",
@@ -62,7 +108,8 @@
     "sourceName": "Economia Azi",
     "sourceUrl": "https://example.com/stire-tech-5g",
     "publishedAt": "2026-07-12T18:00:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "edbae69c5e53471056fcfb7e0fb62709e7005762"
   },
   {
     "id": "2026-07-13-006",
@@ -75,7 +122,8 @@
     "sourceName": "Agenda Publica",
     "sourceUrl": "https://example.com/stire-politica-fonduri",
     "publishedAt": "2026-07-12T14:25:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "f1525fc4b2d779753ffd22f3e6b16f18c4a8a9c3"
   },
   {
     "id": "2026-07-13-007",
@@ -88,7 +136,8 @@
     "sourceName": "Buzz Local",
     "sourceUrl": "https://example.com/stire-amuzanta-pisica",
     "publishedAt": "2026-07-12T11:05:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "a5e392af307ee43811d889539bd6f65c38490c03"
   },
   {
     "id": "2026-07-13-008",
@@ -101,7 +150,8 @@
     "sourceName": "Info Trafic",
     "sourceUrl": "https://example.com/stire-tragedie-accident",
     "publishedAt": "2026-07-12T07:40:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "eb2b851ba5559afb4c80225485a3ec3d03d07fea"
   },
   {
     "id": "2026-07-13-009",
@@ -114,7 +164,8 @@
     "sourceName": "Startup Radar",
     "sourceUrl": "https://example.com/stire-tech-seo-ai",
     "publishedAt": "2026-07-11T16:30:00+03:00",
-    "isPick": true
+    "isPick": true,
+    "fingerprint": "bf38a75a962cf7a494e3b1f7dbd1b3aa26aa1bc4"
   },
   {
     "id": "2026-07-13-010",
@@ -127,7 +178,7 @@
     "sourceName": "Forum Civic",
     "sourceUrl": "https://example.com/stire-politica-ai-reguli",
     "publishedAt": "2026-07-11T10:10:00+03:00",
-    "isPick": false
+    "isPick": false,
+    "fingerprint": "e3a782ebba53a093ca3aa7d4f4f62453159cdfa3"
   }
 ]
-

@@ -3,32 +3,35 @@ name: AI News Pipeline
 on:
   workflow_dispatch:
   schedule:
-	- cron: '0 6,11,16 * * *'
+    - cron: '0 6,11,16 * * *'
 
 permissions:
   contents: write
 
 jobs:
   autopublish:
-	runs-on: ubuntu-latest
-	steps:
-	  - name: Checkout
-		uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-	  - name: Setup Node
-		uses: actions/setup-node@v4
-		with:
-		  node-version: 22
-		  cache: npm
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
 
-	  - name: Install dependencies
-		run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-	  - name: Run AI news pipeline
-		env:
-		  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-		  OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
-		  SITE_URL: https://objectivepinta.github.io/tldr/
-		run: node scripts/news-pipeline.js --max-items=8 --commit
-
-
+      - name: Run AI news pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          SITE_URL: https://objectivepinta.github.io/tldr/
+          ALLOWED_DOMAINS: ${{ vars.ALLOWED_DOMAINS }}
+          BLOCKED_PATTERNS: ${{ vars.BLOCKED_PATTERNS }}
+          REDDIT_SUBREDDITS: ${{ vars.REDDIT_SUBREDDITS }}
+        run: node scripts/news-pipeline.js --max-items=8 --commit
