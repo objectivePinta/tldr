@@ -26,6 +26,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Run AI news pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -35,3 +40,4 @@ jobs:
           BLOCKED_PATTERNS: ${{ vars.BLOCKED_PATTERNS }}
           REDDIT_SUBREDDITS: ${{ vars.REDDIT_SUBREDDITS }}
         run: node scripts/news-pipeline.js --max-items=8 --commit
+
