@@ -315,6 +315,7 @@ async function callOpenAI(promptText) {
 
   for (let attempt = 1; attempt <= OPENAI_MAX_RETRIES; attempt += 1) {
     try {
+      console.log(`    [OpenAI Attempt ${attempt}/${OPENAI_MAX_RETRIES}]`);
       const response = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
@@ -333,8 +334,10 @@ async function callOpenAI(promptText) {
       });
 
       if (!response.ok) {
+        console.log(`    [OpenAI Error] Status: ${response.status}`);
         const shouldRetry = response.status === 429 || response.status >= 500;
         if (shouldRetry && attempt < OPENAI_MAX_RETRIES) {
+          console.log(`    [Retry] Waiting ${OPENAI_RETRY_BASE_MS * attempt}ms before retry...`);
           await sleep(OPENAI_RETRY_BASE_MS * attempt);
           continue;
         }
@@ -343,10 +346,14 @@ async function callOpenAI(promptText) {
 
       const payload = await response.json();
       const content = payload.choices?.[0]?.message?.content || '{}';
-      return JSON.parse(content);
+      const parsed = JSON.parse(content);
+      console.log(`    [OpenAI Success] Response received`);
+      return parsed;
     } catch (error) {
+      console.log(`    [OpenAI Exception] ${error.message}`);
       lastError = error;
       if (attempt < OPENAI_MAX_RETRIES) {
+        console.log(`    [Retry] Waiting ${OPENAI_RETRY_BASE_MS * attempt}ms before retry...`);
         await sleep(OPENAI_RETRY_BASE_MS * attempt);
         continue;
       }
