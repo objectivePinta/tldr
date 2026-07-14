@@ -18,6 +18,7 @@ const SITE_URL = process.env.SITE_URL || 'https://objectivepinta.github.io/tldr/
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const DEFAULT_BLOCKED_PATTERNS = ['[p]', 'sponsorizat', 'publicitate', 'advertorial', 'parteneriat', 'promo'];
+const BOT_USER_AGENT = 'TLDRBot/1.0 (+https://objectivepinta.github.io/tldr/)';
 
 function parseCsvEnv(value) {
   return String(value || '')
@@ -83,6 +84,73 @@ function normalizeUrl(input) {
     return parsed.toString();
   } catch (error) {
     return input.trim();
+  }
+}
+
+function normalizeUrlWithBase(input, baseUrl) {
+  if (!input) {
+    return '';
+  }
+
+  try {
+    const parsed = baseUrl ? new URL(input.trim(), baseUrl) : new URL(input.trim());
+    parsed.hash = '';
+    return parsed.toString();
+  } catch (error) {
+    return String(input).trim();
+  }
+}
+
+function extractFirstImageUrl(rawText, baseUrl) {
+  const text = String(rawText || '');
+  const candidates = [
+    /<media:content[^>]*\burl=["']([^"']+)["'][^>]*>/i,
+    /<enclosure[^>]*\burl=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+(?:property|name)=["']og:image(?::secure_url)?["'][^>]*\bcontent=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+\bcontent=["']([^"']+)["'][^>]*(?:property|name)=["']og:image(?::secure_url)?["'][^>]*>/i,
+    /<meta[^>]+(?:property|name)=["']twitter:image(?::src)?["'][^>]*\bcontent=["']([^"']+)["'][^>]*>/i,
+    /<meta[^>]+\bcontent=["']([^"']+)["'][^>]*(?:property|name)=["']twitter:image(?::src)?["'][^>]*>/i,
+    /<img[^>]*\bsrc=["']([^"']+)["'][^>]*>/i,
+  ];
+
+  for (const pattern of candidates) {
+    const match = text.match(pattern);
+    if (!match || !match[1]) {
+      continue;
+    }
+
+    const url = normalizeUrlWithBase(match[1], baseUrl);
+    if (url.startsWith('http')) {
+      return url;
+    }
+  }
+
+  return '';
+}
+
+async function fetchArticleImage(candidateUrl) {
+  if (!candidateUrl || !candidateUrl.startsWith('http')) {
+    return '';
+  }
+
+  try {
+    const response = await fetch(candidateUrl, {
+      headers: { 'User-Agent': BOT_USER_AGENT },
+    });
+
+    if (!response.ok) {
+      return '';
+    }
+
+    const contentType = String(response.headers.get('content-type') || '').toLowerCase();
+    if (contentType && !contentType.includes('text/html') && !contentType.includes('application/xhtml+xml')) {
+      return '';
+    }
+
+    const html = await response.text();
+    return extractFirstImageUrl(html, response.url || candidateUrl);
+  } catch (error) {
+    return '';
   }
 }
 
@@ -309,7 +377,7 @@ async function summarizeCandidate(candidate, summarizePrompt, safetyPrompt) {
 
 async function fetchRssFeed(source) {
   const response = await fetch(source.url, {
-    headers: { 'User-Agent': 'TLDRBot/1.0 (+https://objectivepinta.github.io/tldr/)' },
+    headers: { 'User-Agent': BOT_USER_AGENT },
   });
 
   if (!response.ok) {
@@ -326,12 +394,13 @@ async function fetchRssFeed(source) {
     url: normalizeUrl(extractTag(block, 'link')),
     publishedAt: extractTag(block, 'pubDate') || new Date().toISOString(),
     description: extractTag(block, 'description') || extractTag(block, 'content:encoded'),
+    image: extractFirstImageUrl(block, source.url),
   }));
 }
 
 async function fetchRedditFeed(source) {
   const response = await fetch(source.url, {
-    headers: { 'User-Agent': 'TLDRBot/1.0 (+https://objectivepinta.github.io/tldr/)' },
+    headers: { 'User-Agent': BOT_USER_AGENT },
   });
 
   if (!response.ok) {
@@ -350,6 +419,7 @@ async function fetchRedditFeed(source) {
       url: normalizeUrl(post.url_overridden_by_dest || post.url || ''),
       publishedAt: post.created_utc ? new Date(post.created_utc * 1000).toISOString() : new Date().toISOString(),
       description: htmlDecode(post.selftext || post.title || ''),
+      image: normalizeUrl(post.preview?.images?.[0]?.source?.url || post.thumbnail || ''),
     };
   });
 }
@@ -372,7 +442,7 @@ function buildNewsItem(candidate, summaryData, existingNews) {
     whyItMatters: summaryData.whyItMatters.startsWith('De ce conteaza:')
       ? summaryData.whyItMatters
       : `De ce conteaza: ${summaryData.whyItMatters}`,
-    image: 'icon.png',
+    image: candidate.image || 'icon.png',
     imageAlt: summaryData.title,
     sourceName: candidate.sourceName,
     sourceUrl: candidate.url,
@@ -468,6 +538,10 @@ function runSelfTest() {
   assert.strictEqual(normalizeSubredditName('r/worldnews'), 'worldnews');
   assert.strictEqual(normalizeSubredditName('https://www.reddit.com/r/technology/'), 'technology');
   assert.strictEqual(buildRedditRssSource('technology').url, 'https://www.reddit.com/r/technology/.rss');
+  assert.strictEqual(
+    extractFirstImageUrl('<meta property="og:image" content="/img/hero.jpg" />', 'https://news.example.com/post'),
+    'https://news.example.com/img/hero.jpg',
+  );
   console.log('Self-test passed.');
 }
 
@@ -530,6 +604,10 @@ async function main() {
 
   const generatedNews = [];
   for (const candidate of limited) {
+    if (!candidate.image) {
+      candidate.image = await fetchArticleImage(candidate.url);
+    }
+
     const summaryData = await summarizeCandidate(candidate, summarizePrompt, safetyPrompt);
     const canAutoPublish = summaryData.legalRisk !== 'high' && (summaryData.confidenceScore >= 0.72 || summaryData.needsHumanReview);
     if (!canAutoPublish) {
