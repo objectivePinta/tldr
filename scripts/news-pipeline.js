@@ -19,9 +19,9 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 const OPENAI_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const DEFAULT_BLOCKED_PATTERNS = ['[p]', 'sponsorizat', 'publicitate', 'advertorial', 'parteneriat', 'promo'];
 const BOT_USER_AGENT = 'TLDRBot/1.0 (+https://objectivepinta.github.io/tldr/)';
-const REQUIRE_OPENAI_SUMMARY = /^true$/i.test(String(process.env.REQUIRE_OPENAI_SUMMARY || 'false'));
-const OPENAI_MAX_RETRIES = Math.max(1, Number(process.env.OPENAI_MAX_RETRIES || 3));
-const OPENAI_RETRY_BASE_MS = Math.max(250, Number(process.env.OPENAI_RETRY_BASE_MS || 1200));
+const REQUIRE_OPENAI_SUMMARY = true;
+const OPENAI_MAX_RETRIES = 3;
+const OPENAI_RETRY_BASE_MS = 1200;
 
 function parseCsvEnv(value) {
   return String(value || '')

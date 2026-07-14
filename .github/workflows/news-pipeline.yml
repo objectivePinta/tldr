@@ -35,9 +35,6 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
-          REQUIRE_OPENAI_SUMMARY: ${{ vars.REQUIRE_OPENAI_SUMMARY }}
-          OPENAI_MAX_RETRIES: ${{ vars.OPENAI_MAX_RETRIES }}
-          OPENAI_RETRY_BASE_MS: ${{ vars.OPENAI_RETRY_BASE_MS }}
           SITE_URL: https://objectivepinta.github.io/tldr/
           ALLOWED_DOMAINS: ${{ vars.ALLOWED_DOMAINS }}
           BLOCKED_PATTERNS: ${{ vars.BLOCKED_PATTERNS }}
