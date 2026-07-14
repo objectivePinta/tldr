@@ -618,6 +618,7 @@ async function main() {
 
   const existingFingerprints = new Set(existingNews.map((item) => item.fingerprint || makeFingerprint(item.sourceUrl, item.title)));
   const candidates = await collectCandidates(sourceConfig);
+  console.log(`\n[Candidates Collected] Total: ${candidates.length}`);
   const { accepted: filteredCandidates, skipped: skippedCandidates } = filterCandidates(candidates, filteringRules);
 
   if (skippedCandidates.length) {
@@ -629,26 +630,45 @@ async function main() {
   }
 
   const freshCandidates = filteredCandidates.filter((candidate) => !existingFingerprints.has(makeFingerprint(candidate.url, candidate.title)));
+  console.log(`[Fresh Candidates] Total: ${freshCandidates.length} (not in existing news)`);
   const limited = freshCandidates.slice(0, Math.max(1, options.maxItems));
+  console.log(`[Processing Queue] Total: ${limited.length} (max ${options.maxItems})\n`);
 
   const generatedNews = [];
   for (const candidate of limited) {
+    console.log(`[URL] ${candidate.url}`);
+    console.log(`  Source: ${candidate.sourceName}`);
+    console.log(`  Title: ${candidate.title}`);
+
     if (!candidate.image) {
       candidate.image = await fetchArticleImage(candidate.url);
+      console.log(`  Image: ${candidate.image || '(none extracted)'}`);
     }
 
     const summaryData = await summarizeCandidate(candidate, summarizePrompt, safetyPrompt);
+    console.log(`  AI Summary:`);
+    console.log(`    Title: "${summaryData.title}"`);
+    console.log(`    Summary: "${summaryData.summary.slice(0, 100)}..."`);
+    console.log(`    Category: ${summaryData.category}`);
+    console.log(`    Confidence: ${summaryData.confidenceScore.toFixed(2)}`);
+    console.log(`    Legal Risk: ${summaryData.legalRisk}`);
+    console.log(`    Used Fallback: ${summaryData.usedFallback}`);
+    console.log(`    Needs Review: ${summaryData.needsHumanReview}`);
+
     if (REQUIRE_OPENAI_SUMMARY && summaryData.usedFallback) {
+      console.log(`  ❌ REJECTED: Fallback mode (requires real AI summary)\n`);
       continue;
     }
 
     const canAutoPublish = summaryData.legalRisk !== 'high' && (summaryData.confidenceScore >= 0.72 || summaryData.needsHumanReview);
     if (!canAutoPublish) {
+      console.log(`  ❌ REJECTED: Auto-publish rules (legalRisk=${summaryData.legalRisk}, confidence=${summaryData.confidenceScore.toFixed(2)})\n`);
       continue;
     }
 
     const newsItem = buildNewsItem(candidate, summaryData, [...existingNews, ...generatedNews]);
     generatedNews.push(newsItem);
+    console.log(`  ✅ PUBLISHED\n`);
   }
 
   if (!generatedNews.length) {
