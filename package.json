@@ -15,7 +15,7 @@
     "test": "npm run build",
     "start": "webpack serve --open --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
-    "ai:run": "node scripts/news-pipeline.js --max-items=8",
+    "ai:run": "node scripts/news-pipeline.js --max-items=100",
     "ai:dry-run": "node scripts/news-pipeline.js --dry-run --max-items=8",
     "ai:self-test": "node scripts/news-pipeline.js --self-test"
   },

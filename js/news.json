@@ -1,86 +1,2168 @@
 [
   {
-    "id": "2026-07-14-004-dupa-bolojan-inca-",
-    "category": "politics",
-    "title": "După Bolojan, încă o voce importantă din PNL vorbește de anticipate: „Sunt un me",
-    "summary": "TLDR: Europarlamentarul Siegfried Mureșan, propus de PNL pentru funcția de premier, a spus marți că alegerile anticipate sunt o opțiune în acest moment, declarația venind la o zi după ce",
-    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
-    "image": "https://hotnews.ro/wp-content/uploads/2025/05/deschidere-alegeri-prezidentiale-2025.jpg",
-    "imageAlt": "După Bolojan, încă o voce importantă din PNL vorbește de anticipate: „Sunt un me",
-    "sourceName": "HotNews - Actualitate",
-    "sourceUrl": "https://hotnews.ro/dupa-bolojan-inca-o-voce-importanta-din-pnl-vorbeste-de-anticipate-sunt-un-mecanism-democratic-2299830",
-    "publishedAt": "2026-07-14T06:50:42.000Z",
-    "isPick": false,
-    "origin": "rss",
-    "fingerprint": "9c6e7a3952be324caf520f5e8a8a4a9dc1e1d264",
-    "confidenceScore": 0.55,
-    "needsHumanReview": true,
-    "legalRisk": "medium",
-    "safetyReason": "Fallback after AI error: OpenAI error 429",
-    "generatedBy": "fallback-heuristic",
-    "generatedAt": "2026-07-14T06:52:02.203Z"
+    "id": "2026-07-14-digest-071",
+    "category": "digest",
+    "title": "CNAR și proiect PNRR: Implementarea sistemului de stâlpi autonome",
+    "summary": "TLDR: CNAR implementează proiectul PNRR pentru siguranță rutiere, montând peste 2.200 de stâlpi autonome la trecerile de pietoni.",
+    "whyItMatters": "De ce conteaza: Implementarea acestui sistem poate reduce accidentele și promovează siguranța pe strază.",
+    "image": "img.png",
+    "imageAlt": "CNAR și proiect PNRR: Implementarea sistemului de stâlpi autonome",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/economie/transporturi/cnair-va-monta-peste-2-200-de-stalpi-de-iluminat-autonomi-la-trecerile-de-pietoni-si-va-realiza-marcaje-speciale-prin-pnrr-3861511",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/economie/transporturi/cnair-va-monta-peste-2-200-de-stalpi-de-iluminat-autonomi-la-trecerile-de-pietoni-si-va-realiza-marcaje-speciale-prin-pnrr-3861511"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/oameni-de-stiinta-descoperire-zahar-spatiu-interstelar-5814679"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/liderul-pnl-dambovita-virgil-guran-nicusor-dan-ar-trebui-sa-aiba-un-rol-mai-imperativ-daca-se-va-ajunge-la-o-formula-benefica-se-va-putea-gandi-si-retragerea-lui-siegfried-muresan-ca-propunere-de.html"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/descoperire-de-150-000-de-euro-a-politistilor-din-vaslui-2300093"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-dupa-negocierile-de-luni-blocajul-e-la-componenta-guvernului-nu-la-numele-premierului-ce-spune-despre-anticipate-3861261"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/publicitate-advertorial/12-lucruri-pe-care-nu-le-stiai-despre-edenland-uriasul-parc-de-aventura-de-langa-bucuresti-5814682"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-imagine-neobisnuita-pe-drumurile-din-cluj-noaptea-trecuta-fuselajul-unui-avion-a-blocat-traficul-a-plecat-de-pe-aeroportul-otopeni-dar-pe-sosea.html"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/dus-inainte-de-culcare-cand-sa-l-faci-si-ce-temperatura-sa-aiba-apa-ca-sa-adormi-mai-repede-2299417"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/ue/scolile-din-estonia-vor-sa-se-blindeze-pentru-a-face-fata-unor-atacuri-de-drone-solutia-tehnica-gasita-3861505"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/campionatul-mondal-de-fotbal-2026/cm-2026-fotbalistii-norvegieni-primiti-triumfal-la-oslo-90-000-de-fani-si-printul-mostenitor-cantand-la-toba-3861489"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/numarul-2-din-aur-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-2300064"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/meteo/meteorologii-anunta-un-cod-galben-de-furtuni-pentru-miercuri-in-mai-multe-judete-prognoza-pentru-capitala-3861407"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/viorel-pasca-cere-sa-i-fie-trimisi-inapoi-o-parte-dintre-bolnavii-luati-de-autoritati-din-azilele-lui-acolo-unde-locuiesc-de-fapt-si-de-drept-5814653"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/nicusor-dan-nu-exclude-alegerile-anticipate-dar-considera-ca-nici-nu-ar-rezolva-impasul-politic-actual-vom-fi-cam-tot-in-aceasta-situatie.html"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/petrisor-peiu-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-simpla-liderul-aur-spune-ca-anticipatele-sunt-solutia-crizei-politice-3861455"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-parada-spectaculoasa-in-norvegia-dupa-participarea-la-cupa-mondiala-printul-mostenitor-haakon-la-toba-pentru-viking-row.html"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/daune-morale-de-2-000-de-lei-din-polita-rca-pentru-proprietarul-unui-caine-stich-jr-un-bulldog-francez-a-fost-lovit-pe-trecerea-de-pietoni-judecatorii-au-invocat-conventia-europeana-a-drepturil.html"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/o-rafinarie-gazprom-in-flacari-dupa-un-atac-al-dronelor-ucrainene-1-400-de-kilometri-de-linia-frontului-ucrainean-3861399"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/opinii/agora-digi/de-la-statul-pe-hartie-la-statul-superinteligent-saltul-in-viitor-pe-care-romania-trebuie-sa-l-faca-3861459"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/artistul-grec-ionut-galani-concert-pe-plaja-din-venus-in-memoria-actorului-jean-constantin-5814655"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/pompierii-continua-lupta-impotriva-incendiului-din-padurea-istorica-fontainebleau-de-langa-paris-doua-persoane-au-fost-arestate.html"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/avem-oportunitatea-sa-dominam-un-roman-care-lucreaza-pentru-o-firma-ai-sustinuta-de-google-despre-viitorul-startup-urilor-europene-2300058"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/7-functii-din-google-maps-pe-care-merita-sa-le-folosesti-in-newsletter-ul-good-tech-de-pe-15-iulie-2300038"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/foto-imagini-de-groaza-din-locuinta-din-bucuresti-unde-erau-tinute-115-pisici-animale-ascunse-si-deasupra-hotei-din-bucatarie-2300031"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/coduri-rosii-si-portocalii-de-canicula-in-italia-in-sardinia-sunt-asteptate-temperaturi-de-45-de-grade-celsius.html"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/foto-intrarile-in-judetul-timis-vor-avea-o-noua-identitate-vizuala-totemuri-cu-simbolurile-zonei-astazi-nici-nu-iti-dai-seama-ca-ai-intrat-in-judet.html"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/viorel-pasca-ii-cere-inapoi-pe-oamenii-luati-de-autoritati-din-azilele-de-la-dumbrava-o-parte-dintre-ei-sunt-tinuti-impotriva-vointei-lor-sunt-dispus-sa-ne-intalnim-pentru-a-gasi-solutii-pentru-a.html"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/cine-sunt-actionarii-hotnews-2300014"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/lifestyle/ce-este-faina-de-tapioca-retete-5814091"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/merita-sa-duci-copilul-la-un-liceu-privat-seful-asociatiei-scolilor-private-spune-cand-nu-le-recomanda-parintilor-sa-aleaga-aceasta-varianta-2300012"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/foto-un-avion-a-blocat-o-strada-din-cluj-explicatia-e-simpla-2300013"
+      },
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-ferrari-prezinta-primele-imagini-cu-circuitul-stradal-de-f1-de-la-madrid.html"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/mapamond/inca-un-armistitiu-din-orientul-mijlociu-atarna-de-un-fir-de-ata-rebelii-houthi-din-yemen-au-lansat-rachete-asupra-arabiei-saudite-3861423"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/economie/daniel-daianu-inaintea-discutiilor-cu-agentiile-de-rating-nu-trebuie-lasata-tara-de-izbeliste-pentru-orgolii-personale-si-de-partid-3861389"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/seful-microsoft-avertisment-socant-pentru-companiile-ce-folosesc-ai-2299956"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/zyx-group-anunta-finalizarea-tranzactiei-cu-pluralis-b-v-17-din-actiunile-companiei-au-fost-achizitionate-de-vehicululde-investitii-dedicat-sustinerii-presei-independente-administrat-de-organizatia-2299812"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/alex-rusu-roman-9-ani-trei-medalii-olimpiada-internationala-stem-roma-5814520"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/bogdan-ivan-despre-blocarea-proiectelor-din-pnrr-nu-le-vom-da-un-vot-in-alb-celor-care-au-demonstrat-ca-nu-se-tin-de-cuvant-3861395"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/fost-diplomat-american-trump-isi-da-seama-ca-ucraina-va-fi-cel-mai-probabil-castigatoarea-iar-rusia-perdanta-3861367"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/nicusor-dan-dezvaluie-ce-a-discutat-cu-psd-pnl-usr-si-udmr-vorbeste-de-alegerile-anticipate-5814565"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/poveste-alina-claudiu-badea-doi-romani-boston-casatorit-bord-nava-scoala-mircea-port-american-5814546"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/franta-spania-semifinala-de-vis-la-cupa-mondiala-2026-voi-insiva-spuneti-ca-nu-sunt-la-apogeul-meu-asa-ca-nu-va-asteptati-sa-vedeti-nimic-special-2299948"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/siegfried-muresan-anticipatele-nu-sunt-o-chestie-neobisnuita-n-am-inteles-de-ce-presedintele-a-exclus-aceasta-parghie-constitutionala-3861299"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/nicusor-dan-anunt-in-premiera-despre-anticipate-nu-este-ceva-ce-eu-sa-mi-doresc-nu-exclud-2299961"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/rusia-spune-ca-ucrainenii-au-folosit-baloane-remorci-si-drone-ca-sa-strecoare-quadcoptere-de-atac-cu-ai-mult-in-interiorul-tarii-2299936"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/cel-mai-mare-integrator-it-cu-capital-100-romanesc-raporteaza-un-profit-net-de-2034-milioane-lei-in-2025-si-anunta-ca-isi-extinde-aria-de-expertiza-catre-sectorul-de-aparare-si-siguranta-nationala-2299959"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/institutii-interimate-sefi-demisi-5811509"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/prim-ministrul-poloniei-face-o-predictie-sumbra-despre-intentiile-rusiei-in-razboiul-din-ucraina-2299859"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/sanatate-digimatinal/durerea-de-spate-care-coboara-pe-picior-care-poate-fi-cauza-3860349"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/opinii/intrebarea-saptamanii/intrebarea-saptamanii-mai-vor-partidele-sa-negocieze-un-guvern-sau-doar-mimeaza-negocierile-3861347"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/prognoza-speciala-pentru-bucuresti-2299915"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/sute-de-cereri-zero-negocieri-cum-trateaza-ifn-urile-nemultumirile-oamenilor-2299914"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/franta-mobilizare-masiva-dupa-ce-celebrul-palat-fontainebleau-a-fost-amenintat-de-un-incendiu-de-vegetatie-2299898"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/nicusor-dan-vizita-kiev-drona-ucraina-explodat-portul-constanta-summitul-ucraina-europa-de-sud-est-zelenski-5814501"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/ploi-torentiale-vijelii-grindina-romania-harta-zone-vizate-avertizare-meteo-cod-galben-anm-5814526"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/ue/tara-ue-care-se-inarmeaza-masiv-dar-in-care-tot-mai-multi-tineri-refuza-serviciul-militar-ce-este-obiectia-de-constiinta-3861337"
+      },
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/avertizare-meteo-de-vijelii-si-ploi-torentiale-in-mai-multe-judete-anuntul-anm-2299902"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/cum-au-aparut-adelina-pestritu-si-iulia-vantur-in-turcia-imagini-rare-cu-cele-doua-vedete-cand-romania-si-india-se-intalnesc-5814555"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/sua/sora-lui-lindsey-graham-va-ocupa-locul-acestuia-in-senat-dupa-moartea-politicianului-republican-3861319"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/31000-euro-plus-profit-dat-inapoi-cei-care-au-inchiriat-ilegal-casa-soferi-romani-tir-olanda-5814550"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/lifestyle/premiera-medicul-roman-teodor-holhos-invitat-sa-realizeze-operatii-oftalmologice-la-viena-5814548"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/moldova/trimisul-lui-putin-la-chisinau-a-fost-convocat-la-ministerul-afacerilor-externe-din-republica-moldova-3861307"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/avertismentul-sefului-diplomatiei-germane-rusia-este-tot-mai-activa-intr-o-regiune-de-maxima-importanta-pentru-securitatea-noastra-3861295"
+      },
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/un-avion-dezafectat-a-blocat-o-intersectie-din-cluj-napoca-3861279"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/care-este-de-fapt-termenul-de-expirare-al-unui-parfum-anumite-tipuri-de-ingrediente-se-degradeaza-mai-rapid-5813788"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/stiri-cluj-pod-nou-cluj-6-milioane-euro-somesul-mic-5814452"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/vreme-prognoza-meteo-anm-13-iulie-10-august-2026-5814503"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/cat-a-platit-marian-godina-pentru-o-gustare-pescareasca-la-malul-marii-5814502"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/sabrina-gonzalez-pasterski-fiziciana-denumita-viitorul-einstein-refuzat-nasa-jeff-bezos-5814447"
+      },
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/actrita-ada-gales-a-pierdut-sarcina-este-pentru-prima-oara-cand-vorbeste-5814491"
+      }
+    ],
+    "publishedAt": "2026-07-14T10:05:35.627Z",
+    "isPick": true,
+    "origin": "digest",
+    "fingerprint": "5e4985b32a123cf7058d8024b3e21dbe9f121bda",
+    "confidenceScore": 0.9,
+    "needsHumanReview": false,
+    "legalRisk": "low",
+    "safetyReason": "Digest compus din rezumatele deja publicabile.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:05:35.627Z"
   },
   {
-    "id": "2026-07-14-013-super-tranzactia-d",
-    "category": "politics",
-    "title": "Super tranzacția de miliarde de dolari care va redefini piața media a fost ataca",
-    "summary": "TLDR: State precum California, New York, Arizona și Minnesota se opun planului Paramount de a cumpăra Warner Bros, spunând că tranzacția ar afecta cinematografele și distribuitorii de te",
+    "id": "2026-07-14-002-oamenii-de-stiinta",
+    "category": "science",
+    "title": "Oamenii de știință au descoperit zahăr în spațiul interstelar",
+    "summary": "TLDR: Astronomii au detectat eritruloză, un tip de zahăr, în spațiu. Importanța acestei descoperire a fost discutată.",
     "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
-    "image": "icon.png",
-    "imageAlt": "Super tranzacția de miliarde de dolari care va redefini piața media a fost ataca",
-    "sourceName": "HotNews - Actualitate",
-    "sourceUrl": "https://hotnews.ro/super-tranzactia-de-miliarde-de-dolari-care-va-redefini-piata-media-a-fost-atacata-in-justitie-de-11-state-din-sua-un-conflict-cu-tenta-politica-2299811",
-    "publishedAt": "2026-07-14T06:34:11.000Z",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/calea-lactee-620x362.jpg",
+    "imageAlt": "Oamenii de știință au descoperit zahăr în spațiul interstelar",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/oameni-de-stiinta-descoperire-zahar-spatiu-interstelar-5814679",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/oameni-de-stiinta-descoperire-zahar-spatiu-interstelar-5814679"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:34:26.000Z",
     "isPick": false,
     "origin": "rss",
-    "fingerprint": "a722936544c418a8897a66af4865cb28b6d03663",
-    "confidenceScore": 0.55,
+    "fingerprint": "c053166c5712624ccaa534642abc2354818ae0ed",
+    "confidenceScore": 0.9,
     "needsHumanReview": true,
     "legalRisk": "medium",
-    "safetyReason": "Fallback after AI error: OpenAI error 429",
-    "generatedBy": "fallback-heuristic",
-    "generatedAt": "2026-07-14T06:43:38.282Z"
+    "safetyReason": "Tragedy sensitive claim",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:39:36.027Z"
   },
   {
-    "id": "2026-07-14-011-de-la-berlin-coman",
+    "id": "2026-07-14-003-liderul-pnl-dan-ar",
     "category": "politics",
-    "title": "De la Berlin, comandantul forțelor aeriene ale Germaniei lansează un avertisment",
-    "summary": "TLDR: Șeful forțelor aeriene ale Germaniei a avertizat că Berlinul trebuie să cumpere deocamdată arme cu eficacitate dovedită, precum avioanele de vânătoare din SUA, pentru a contracara ",
+    "title": "Liderul PNL: Dan Ar Trebuie Cu Rol Mai Imperativ",
+    "summary": "TLDR: Virgil Guran, liderul PNL Dâmbovița, a declarat că Președintele României ar trebui să aibă un rol puțin mai imperativ în negocierile cu partidele.",
     "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
-    "image": "icon.png",
-    "imageAlt": "De la Berlin, comandantul forțelor aeriene ale Germaniei lansează un avertisment",
-    "sourceName": "HotNews - Actualitate",
-    "sourceUrl": "https://hotnews.ro/avertismentul-comandantului-luftwaffe-pentru-germania-si-restul-europei-in-acest-moment-nu-avem-timp-2299787",
-    "publishedAt": "2026-07-14T05:51:35.000Z",
+    "image": "https://www.g4media.ro//wp-content/uploads/2023/03/FB1A6564.jpg",
+    "imageAlt": "Liderul PNL: Dan Ar Trebuie Cu Rol Mai Imperativ",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/liderul-pnl-dambovita-virgil-guran-nicusor-dan-ar-trebui-sa-aiba-un-rol-mai-imperativ-daca-se-va-ajunge-la-o-formula-benefica-se-va-putea-gandi-si-retragerea-lui-siegfried-muresan-ca-propunere-de.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/liderul-pnl-dambovita-virgil-guran-nicusor-dan-ar-trebui-sa-aiba-un-rol-mai-imperativ-daca-se-va-ajunge-la-o-formula-benefica-se-va-putea-gandi-si-retragerea-lui-siegfried-muresan-ca-propunere-de.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:30:32.000Z",
     "isPick": false,
     "origin": "rss",
-    "fingerprint": "8222d9241c0b22444fe0d1dfb0bf57812de60506",
-    "confidenceScore": 0.55,
+    "fingerprint": "3beeb843403a89e5d42584d73399f081831f9ce2",
+    "confidenceScore": 0.9,
     "needsHumanReview": true,
-    "legalRisk": "medium",
-    "safetyReason": "Fallback mode without OPENAI_API_KEY",
-    "generatedBy": "fallback-heuristic",
-    "generatedAt": "2026-07-14T06:22:17.837Z"
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:39:57.189Z"
   },
   {
-    "id": "2026-07-14-012-cine-este-al-treil",
+    "id": "2026-07-14-005-nicusor-dan-proble",
     "category": "politics",
-    "title": "Cine este al treilea membru al Biroului Politic din China epurat de Xi Jinping î",
-    "summary": "TLDR: Înaltul oficial chinez Ma Xingrui a fost expulzat din Partidul Comunist pentru corupție, scrie Reuters. Ancheta, spun analiștii, reflectă centralizarea continuă a puterii sub condu",
+    "title": "Nicușor Dan: Problema nu este numele premierului",
+    "summary": "TLDR: Președintele Dan spune că problema actuală nu este numele primierului, ci componența guvernului.",
     "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
-    "image": "icon.png",
-    "imageAlt": "Cine este al treilea membru al Biroului Politic din China epurat de Xi Jinping î",
-    "sourceName": "HotNews - Actualitate",
-    "sourceUrl": "https://hotnews.ro/al-treilea-membru-al-biroului-politic-din-china-epurat-de-xi-jinping-intr-o-perioada-scurta-de-timp-si-a-pierdut-idealurile-si-convingerile-2299765",
-    "publishedAt": "2026-07-14T05:25:46.000Z",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjMwJTJGMjgxNTQ2MF8yODE1/NDYwX25pY3Vzb3ItZGFuLWlucXVhbS1v/Y3Rhdi1nYW5lYS5qcGcmaGFzaD02MzQz/ODk5YzhjNzE2NzcyZTYxNjA1N2IyNjAyNTcxZA==.jpg",
+    "imageAlt": "Nicușor Dan: Problema nu este numele premierului",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-dupa-negocierile-de-luni-blocajul-e-la-componenta-guvernului-nu-la-numele-premierului-ce-spune-despre-anticipate-3861261",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-dupa-negocierile-de-luni-blocajul-e-la-componenta-guvernului-nu-la-numele-premierului-ce-spune-despre-anticipate-3861261"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:30:27.000Z",
     "isPick": false,
     "origin": "rss",
-    "fingerprint": "61f6ffaf4c086fe91b05b1e20e96ff7d83e182e7",
-    "confidenceScore": 0.55,
+    "fingerprint": "14297c416b491f123b1d7362aa7757423c3fa46b",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:40:37.153Z"
+  },
+  {
+    "id": "2026-07-14-006-12-lucruri-despre-",
+    "category": "funny",
+    "title": "12 lucruri despre Edenland - uriașul parc de aventură",
+    "summary": "TLDR: Edenland este un parcul extrem de oferit atât pentru adulți, cât și pentru copii, cu activități sportive și zone speciale.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/maxresdefault-620x349.jpg",
+    "imageAlt": "12 lucruri despre Edenland - uriașul parc de aventură",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/publicitate-advertorial/12-lucruri-pe-care-nu-le-stiai-despre-edenland-uriasul-parc-de-aventura-de-langa-bucuresti-5814682",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/publicitate-advertorial/12-lucruri-pe-care-nu-le-stiai-despre-edenland-uriasul-parc-de-aventura-de-langa-bucuresti-5814682"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:27:18.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "9eac80293e81f2b825c95f5cbf17ad59f9cea373",
+    "confidenceScore": 0.8,
     "needsHumanReview": true,
     "legalRisk": "medium",
-    "safetyReason": "Fallback mode without OPENAI_API_KEY",
-    "generatedBy": "fallback-heuristic",
-    "generatedAt": "2026-07-14T06:22:17.837Z"
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:40:58.442Z"
+  },
+  {
+    "id": "2026-07-14-004-descoperire-de-150",
+    "category": "science",
+    "title": "Descoperire de 150.000 euro a polițiștilor din Vaslui",
+    "summary": "TLDR: Un autoturism în valoare de 150.000 de euro, căutat pentru confiscare de autoritățile din Cehia, a fost descoperit de polițiști vasluieni la o zi de la emiterea alertei.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2024/04/image-2022-09-30-25819062-41-politia-romana.jpg",
+    "imageAlt": "Descoperire de 150.000 euro a polițiștilor din Vaslui",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/descoperire-de-150-000-de-euro-a-politistilor-din-vaslui-2300093",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/descoperire-de-150-000-de-euro-a-politistilor-din-vaslui-2300093"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:27:11.000Z",
+    "isPick": true,
+    "origin": "rss",
+    "fingerprint": "e7dec40266c9e3298344d4ca4c6db8b805399729",
+    "confidenceScore": 0.9,
+    "needsHumanReview": false,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:40:17.423Z"
+  },
+  {
+    "id": "2026-07-14-009-scolile-din-estoni",
+    "category": "politics",
+    "title": "Școlile din Estonia vor să se blindeze",
+    "summary": "TLDR: Școlile din Estonia consolidă ferestre pentru a proteja elevii împotriva atacurilor cu drone.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzQzOV8yODQ3/NDM5X3Byb2ZpbWVkaWEtMTAxMjc5Nzk3/MS5qcGcmaGFzaD1iOTU5Y2ZlOGIxMTU0OGY5OGI1YmQzYWMwNDBiNmJjNw==.jpg",
+    "imageAlt": "Școlile din Estonia vor să se blindeze",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/ue/scolile-din-estonia-vor-sa-se-blindeze-pentru-a-face-fata-unor-atacuri-de-drone-solutia-tehnica-gasita-3861505",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/ue/scolile-din-estonia-vor-sa-se-blindeze-pentru-a-face-fata-unor-atacuri-de-drone-solutia-tehnica-gasita-3861505"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:23:28.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "b3485ff8ef4de3097eea80c37a5a2a8197bbf96b",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:42:03.223Z"
+  },
+  {
+    "id": "2026-07-14-010-cm-2026-fotbalisti",
+    "category": "sports",
+    "title": "CM 2026: Fotbaliștii norvegieni triumfal la Oslo",
+    "summary": "TLDR: Echipa națională de fotbal din Norvegia a fost triumfală în festivități la Oslo, cu regele Harald cântând la tobă pentru 90.000 de fani.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzQxOV8yODQ3/NDE5X3Byb2ZpbWVkaWEtMTExNjQwNTI5/NC5qcGcmaGFzaD1kNjZhOTFhZTJlMTMzYmYyZTNiMzZiYWNiYTkzNWU1Ng==.jpg",
+    "imageAlt": "CM 2026: Fotbaliștii norvegieni triumfal la Oslo",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/campionatul-mondal-de-fotbal-2026/cm-2026-fotbalistii-norvegieni-primiti-triumfal-la-oslo-90-000-de-fani-si-printul-mostenitor-cantand-la-toba-3861489",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/campionatul-mondal-de-fotbal-2026/cm-2026-fotbalistii-norvegieni-primiti-triumfal-la-oslo-90-000-de-fani-si-printul-mostenitor-cantand-la-toba-3861489"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:20:43.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "f364ed30bc28145ac741e724bea7660283becf82",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:42:29.328Z"
+  },
+  {
+    "id": "2026-07-14-007-video-imagine-neob",
+    "category": "funny",
+    "title": "VIDEO Imagine neobișnuită pe drumurile din Cluj",
+    "summary": "TLDR: Fuselajul unui avion a blocat traficul pe strâns, de la Otopeni până la Cluj-Napoca.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/07/746067495_27606271642325218_4088006672405836223_n.jpg",
+    "imageAlt": "VIDEO Imagine neobișnuită pe drumurile din Cluj",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/video-imagine-neobisnuita-pe-drumurile-din-cluj-noaptea-trecuta-fuselajul-unui-avion-a-blocat-traficul-a-plecat-de-pe-aeroportul-otopeni-dar-pe-sosea.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-imagine-neobisnuita-pe-drumurile-din-cluj-noaptea-trecuta-fuselajul-unui-avion-a-blocat-traficul-a-plecat-de-pe-aeroportul-otopeni-dar-pe-sosea.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:16:55.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "ed1715bda72e0d7ebd97e634e53ec0414213fbd5",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:41:21.932Z"
+  },
+  {
+    "id": "2026-07-14-008-dus-inainte-de-cul",
+    "category": "funny",
+    "title": "Duș înainte de culcare: când să-l faci și ce temperatură?",
+    "summary": "TLDR: Un duș cald făcut dimineața revigorează, iar un baie cu jumătate-două înainte de culcare asigură un somn odihnitor.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/femeie-dus-seara.jpg",
+    "imageAlt": "Duș înainte de culcare: când să-l faci și ce temperatură?",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/dus-inainte-de-culcare-cand-sa-l-faci-si-ce-temperatura-sa-aiba-apa-ca-sa-adormi-mai-repede-2299417",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/dus-inainte-de-culcare-cand-sa-l-faci-si-ce-temperatura-sa-aiba-apa-ca-sa-adormi-mai-repede-2299417"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:16:51.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "50ad336371416a305272f5ee67e30495a7b54387",
+    "confidenceScore": 0.85,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:41:43.902Z"
+  },
+  {
+    "id": "2026-07-14-011-numarul-2-din-aur-",
+    "category": "politics",
+    "title": "Numărul 2 din AUR: Sorin Grindeanu trebuie să primească o lecție",
+    "summary": "TLDR: Liderul AUR, Petrişor Peiu, sugerează alegeri anticipate ca ieșirea rațională a crizei politice. Orice adult înțelege.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/05/INSTANT_MOTIUNEA_CENZ_1_13_INQUAM_Photos_George_Calin.jpg",
+    "imageAlt": "Numărul 2 din AUR: Sorin Grindeanu trebuie să primească o lecție",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/numarul-2-din-aur-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-2300064",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/numarul-2-din-aur-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-2300064"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:08:13.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "25e88af62f9e19e7982b377c0321a1e752511724",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:42:51.267Z"
+  },
+  {
+    "id": "2026-07-14-012-meteorologii-anunt",
+    "category": "weather",
+    "title": "Meteorologii anunță cod galben pentru mai mulți județe",
+    "summary": "TLDR: Meteorologii emitem avertizare cod galben, instabilitate atmosferică pentru miercuri în zone montane. Prognoză pentru Capitală.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwMiUyRjEyJTJGMjE4ODMzOF8yMTg4/MzM4X3NodXR0ZXJzdG9ja18yNTA2NDQz/MzA5LmpwZyZoYXNoPTJmODUxOGE2YzJkNzZiZDE4ZWY3NGU1NzEyMzk2NWMy.jpg",
+    "imageAlt": "Meteorologii anunță cod galben pentru mai mulți județe",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/meteo/meteorologii-anunta-un-cod-galben-de-furtuni-pentru-miercuri-in-mai-multe-judete-prognoza-pentru-capitala-3861407",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/meteo/meteorologii-anunta-un-cod-galben-de-furtuni-pentru-miercuri-in-mai-multe-judete-prognoza-pentru-capitala-3861407"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:07:22.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "7c04a635bd79032b1470841850f3c78972aee625",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:43:09.875Z"
+  },
+  {
+    "id": "2026-07-14-013-viorel-pasca-imbra",
+    "category": "tech",
+    "title": "Viorel Pașca: Îmbrăcăminte cu bolnavii din azile",
+    "summary": "TLDR: Viorel Pașca cere autorităților să își trimite pacienții vulnerabili în anumite locuri.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/viorel-pasca-curtea-apel-bucuresti-01-22-620x413.jpg",
+    "imageAlt": "Viorel Pașca: Îmbrăcăminte cu bolnavii din azile",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/viorel-pasca-cere-sa-i-fie-trimisi-inapoi-o-parte-dintre-bolnavii-luati-de-autoritati-din-azilele-lui-acolo-unde-locuiesc-de-fapt-si-de-drept-5814653",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/viorel-pasca-cere-sa-i-fie-trimisi-inapoi-o-parte-dintre-bolnavii-luati-de-autoritati-din-azilele-lui-acolo-unde-locuiesc-de-fapt-si-de-drept-5814653"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:06:17.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "3effd41f45633332bc818e98e6520fd3616023bf",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:43:30.355Z"
+  },
+  {
+    "id": "2026-07-14-014-nicusor-dan-aleger",
+    "category": "politics",
+    "title": "Nicușor Dan: Alegerile Anticipate Foarte Puțin Probabile",
+    "summary": "TLDR: Președintele Nicușor Dan nu exclude alegerile anticipate, dar subliniază că ar fi doar o soluție temporară dacă blocajul politic se prolongează.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/03/26-03-06-02-07-30big_vizita_polonia_5_mar_2026-228.jpg",
+    "imageAlt": "Nicușor Dan: Alegerile Anticipate Foarte Puțin Probabile",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/nicusor-dan-nu-exclude-alegerile-anticipate-dar-considera-ca-nici-nu-ar-rezolva-impasul-politic-actual-vom-fi-cam-tot-in-aceasta-situatie.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/nicusor-dan-nu-exclude-alegerile-anticipate-dar-considera-ca-nici-nu-ar-rezolva-impasul-politic-actual-vom-fi-cam-tot-in-aceasta-situatie.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:05:51.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "017631b6d831a5c6b8d659c8c71329b10b6c0abf",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:43:50.282Z"
+  },
+  {
+    "id": "2026-07-14-015-petrisor-peiu-anti",
+    "category": "politics",
+    "title": "Petrișor Peiu: Anticiparea alegerilor este soluție",
+    "summary": "TLDR: Petrișor Peiu sugerează anticiparea alegerilor pentru ieșirea din criza politică, iar liderul PSD Sorin Grindeanu îi transmite un mesaj.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjI5JTJGMjgxMTkxOF8yODEx/OTE4X04xNC1QRUlVLUFOVElDSVBBVEUt/U0ktVFJBREFUT1JJLVNJTkNfMDA5Njcu/anBnJmhhc2g9ZWVkYjQ4NzI2ZWY1NjM4OGZkOTA4OGM3YTYzMjFmZGM=.jpg",
+    "imageAlt": "Petrișor Peiu: Anticiparea alegerilor este soluție",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/petrisor-peiu-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-simpla-liderul-aur-spune-ca-anticipatele-sunt-solutia-crizei-politice-3861455",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/petrisor-peiu-sorin-grindeanu-trebuie-sa-primeasca-o-lectie-simpla-liderul-aur-spune-ca-anticipatele-sunt-solutia-crizei-politice-3861455"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:03:19.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "ab226359eac7e00e1475aeac36ddc12e68a09781",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:44:09.915Z"
+  },
+  {
+    "id": "2026-07-14-016-parada-in-norvegia",
+    "category": "sports",
+    "title": "Paradă în Norvegia după Cupa Mondială",
+    "summary": "TLDR: Haakon, prințul moștenitor al Norvegiei, a salutat traseul bun la finaluri. G4Media.ro",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/07/Sarbatoare-la-Oslo.jpg",
+    "imageAlt": "Paradă în Norvegia după Cupa Mondială",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/video-parada-spectaculoasa-in-norvegia-dupa-participarea-la-cupa-mondiala-printul-mostenitor-haakon-la-toba-pentru-viking-row.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-parada-spectaculoasa-in-norvegia-dupa-participarea-la-cupa-mondiala-printul-mostenitor-haakon-la-toba-pentru-viking-row.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:02:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8b330237f2ad007e1beba254bfb6251d99b6644d",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:44:26.894Z"
+  },
+  {
+    "id": "2026-07-14-017-daune-morale-la-rc",
+    "category": "business",
+    "title": "Daune morale la RCA pentru câine lovit",
+    "summary": "TLDR: Judecătorii obligau asigurătorul să achite și daunele psihice proprietarului câinii lovit pe pieton. Convenția Europeană a Drepturilor Omului este invocată.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/02/bulldog-francez.jpg",
+    "imageAlt": "Daune morale la RCA pentru câine lovit",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/daune-morale-de-2-000-de-lei-din-polita-rca-pentru-proprietarul-unui-caine-stich-jr-un-bulldog-francez-a-fost-lovit-pe-trecerea-de-pietoni-judecatorii-au-invocat-conventia-europeana-a-drepturil.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/daune-morale-de-2-000-de-lei-din-polita-rca-pentru-proprietarul-unui-caine-stich-jr-un-bulldog-francez-a-fost-lovit-pe-trecerea-de-pietoni-judecatorii-au-invocat-conventia-europeana-a-drepturil.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:01:46.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "770dc4c04af27fd3ae209b40918d5d7482f70a70",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:44:48.504Z"
+  },
+  {
+    "id": "2026-07-14-018-rafinarie-gazprom-",
+    "category": "tragedy",
+    "title": "Rafinărie Gazprom în flăcări după atac de drone",
+    "summary": "TLDR: Un incendiu a izbucnit la rafinăria, afectată de atacul ucrainen care a făcut-o înflăcărată la 1.400 km de linia frontieră.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYxMCUyRjAzJTJGMjM4MzA1NV8yMzgz/MDU1X3VjcmFpbmEuanBnJmhhc2g9ODQ0/ZjBkOTBkMDFhYTliMjVlOGFmMjMxZmE1YjM2MTE=.jpg",
+    "imageAlt": "Rafinărie Gazprom în flăcări după atac de drone",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/o-rafinarie-gazprom-in-flacari-dupa-un-atac-al-dronelor-ucrainene-1-400-de-kilometri-de-linia-frontului-ucrainean-3861399",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/o-rafinarie-gazprom-in-flacari-dupa-un-atac-al-dronelor-ucrainene-1-400-de-kilometri-de-linia-frontului-ucrainean-3861399"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:01:13.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "d28dcd75d85ddf9febeba4d530f997299caaae1a",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:45:07.107Z"
+  },
+  {
+    "id": "2026-07-14-019-de-la-statul-pe-ha",
+    "category": "politics",
+    "title": "De la statul pe hârtie la statul superinteligent",
+    "summary": "TLDR: Digi24 - Politica condus, acum patru ani, ministerul responsabil de digitalizarea României. Statul poate face mult mai mult dacă are voință.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjExJTJGMjc4MjQ5NV8yNzgy/NDk1X3NlYmFzdGlhbi1idXJkdWphLWlu/cXVhbS1zYWJpbi1jaXJzdG92ZWFudS5q/cGcmaGFzaD1kODBlOTAwMDAwZWUwNTdlNjQzMTVjODZjZTk3ZDVmNA==.jpg",
+    "imageAlt": "De la statul pe hârtie la statul superinteligent",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/opinii/agora-digi/de-la-statul-pe-hartie-la-statul-superinteligent-saltul-in-viitor-pe-care-romania-trebuie-sa-l-faca-3861459",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/opinii/agora-digi/de-la-statul-pe-hartie-la-statul-superinteligent-saltul-in-viitor-pe-care-romania-trebuie-sa-l-faca-3861459"
+      }
+    ],
+    "publishedAt": "2026-07-14T09:00:36.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8b8f0d2928b3aab40f5c81054328705ec261e482",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:45:25.361Z"
+  },
+  {
+    "id": "2026-07-14-020-artistul-ionut-gal",
+    "category": "culture",
+    "title": "Artistul Ionuț Galani: Concert pe plaja în memoria Jean Constantin",
+    "summary": "TLDR: Începe concert de muzică greacă din partea artistului Ionuț Galani, care face memorie pentru prietenul său, actorul Jean Constantin.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/ionut-galani-artist-grec-620x362.jpg",
+    "imageAlt": "Artistul Ionuț Galani: Concert pe plaja în memoria Jean Constantin",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/entertainment/artistul-grec-ionut-galani-concert-pe-plaja-din-venus-in-memoria-actorului-jean-constantin-5814655",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/artistul-grec-ionut-galani-concert-pe-plaja-din-venus-in-memoria-actorului-jean-constantin-5814655"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:58:14.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "7bf77fdb5d43ee52f945f6beb695f947a6a43b74",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:45:44.042Z"
+  },
+  {
+    "id": "2026-07-14-021-pompierii-incetina",
+    "category": "tragedy",
+    "title": "Pompierii încetină incendiu la Fontainebleau",
+    "summary": "TLDR: Pompieri luptează toată noaptea cu flăcările care au închis o pădure istorică de la Paris. Două persoane arestate.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2024/06/incendiu-padure-flacari-e1717472750890.jpg",
+    "imageAlt": "Pompierii încetină incendiu la Fontainebleau",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/pompierii-continua-lupta-impotriva-incendiului-din-padurea-istorica-fontainebleau-de-langa-paris-doua-persoane-au-fost-arestate.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/pompierii-continua-lupta-impotriva-incendiului-din-padurea-istorica-fontainebleau-de-langa-paris-doua-persoane-au-fost-arestate.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:56:35.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "15fb8214bcbafe729c10a1933bae8b1b1e07667c",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:46:02.864Z"
+  },
+  {
+    "id": "2026-07-14-022-avem-oportunitatea",
+    "category": "tech",
+    "title": "Avem oportunitatea să dominăm. Alexandru Voica",
+    "summary": "TLDR: Alexandru Voica din Synthesia spune că avem foarte multă experiență în Europa și ar trebui să fim mai agresivi pentru a domina.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/Alexandru-Voica-Head-of-Corporate-Affairs-Policy-la-startup-ul-Synthesia.jpg",
+    "imageAlt": "Avem oportunitatea să dominăm. Alexandru Voica",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/avem-oportunitatea-sa-dominam-un-roman-care-lucreaza-pentru-o-firma-ai-sustinuta-de-google-despre-viitorul-startup-urilor-europene-2300058",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/avem-oportunitatea-sa-dominam-un-roman-care-lucreaza-pentru-o-firma-ai-sustinuta-de-google-despre-viitorul-startup-urilor-europene-2300058"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:56:08.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "3698fb5cd1389797fedf8ca75016c45685af10a4",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "Tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:46:22.395Z"
+  },
+  {
+    "id": "2026-07-14-023-7-functii-din-goog",
+    "category": "tech",
+    "title": "7 funcții din Google Maps",
+    "summary": "TLDR: Alegeți cel mai bun drum, evitați trafic și căutați locuri de mese în newsletter-ul Good Tech de 15 iulie.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/google-maps.jpg",
+    "imageAlt": "7 funcții din Google Maps",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/7-functii-din-google-maps-pe-care-merita-sa-le-folosesti-in-newsletter-ul-good-tech-de-pe-15-iulie-2300038",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/7-functii-din-google-maps-pe-care-merita-sa-le-folosesti-in-newsletter-ul-good-tech-de-pe-15-iulie-2300038"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:53:10.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "3e2ec202fcd7558fe29b7246e59336ac1fa76a15",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:46:41.720Z"
+  },
+  {
+    "id": "2026-07-14-024-fotografii-de-groz",
+    "category": "tragedy",
+    "title": "Fotografii de grozav din apartament cu pisici în București",
+    "summary": "TLDR: Autoritățile au intervenit în apartament unde erau ținute 115 pisici în condiții improprii. Animalele au fost preluate de asociațiile de protecție animalelor.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/745660223_1494104658701763_8058361366040264932_n.jpg",
+    "imageAlt": "Fotografii de grozav din apartament cu pisici în București",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/foto-imagini-de-groaza-din-locuinta-din-bucuresti-unde-erau-tinute-115-pisici-animale-ascunse-si-deasupra-hotei-din-bucatarie-2300031",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/foto-imagini-de-groaza-din-locuinta-din-bucuresti-unde-erau-tinute-115-pisici-animale-ascunse-si-deasupra-hotei-din-bucatarie-2300031"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:51:30.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "722351ffea281cee034b5996e0227dee3399ffcb",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:47:08.636Z"
+  },
+  {
+    "id": "2026-07-14-025-coduri-rosii-si-po",
+    "category": "weather",
+    "title": "Coduri roşii şi portocalii de caniculă în Italia",
+    "summary": "TLDR: În Sardinia sunt așteptate temperaturi de 45 de grade Celsius, cu alerte cod roșu și portocaliu în 7 orașe italiene.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2025/04/dreamstime_l_327506122.jpg",
+    "imageAlt": "Coduri roşii şi portocalii de caniculă în Italia",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/coduri-rosii-si-portocalii-de-canicula-in-italia-in-sardinia-sunt-asteptate-temperaturi-de-45-de-grade-celsius.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/coduri-rosii-si-portocalii-de-canicula-in-italia-in-sardinia-sunt-asteptate-temperaturi-de-45-de-grade-celsius.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:48:35.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "77aa1170028544db68aea6d2c7792a8d3f72694b",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:47:30.661Z"
+  },
+  {
+    "id": "2026-07-14-026-intrarile-in-judet",
+    "category": "culture",
+    "title": "Intrările în județul Timiș cu nouă identitate vizuală",
+    "summary": "TLDR: Consiliul Județean Timiș prezintă proiect pentru schimbarea imaginea intrărilor, inclusiv totemuri moderne care marca accesul și valorifică identitatea județului.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/07/granita-judet-timis-3.jpg",
+    "imageAlt": "Intrările în județul Timiș cu nouă identitate vizuală",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/foto-intrarile-in-judetul-timis-vor-avea-o-noua-identitate-vizuala-totemuri-cu-simbolurile-zonei-astazi-nici-nu-iti-dai-seama-ca-ai-intrat-in-judet.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/foto-intrarile-in-judetul-timis-vor-avea-o-noua-identitate-vizuala-totemuri-cu-simbolurile-zonei-astazi-nici-nu-iti-dai-seama-ca-ai-intrat-in-judet.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:46:09.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "c914fffa2a074d38ea52af066db4e92028c3ea34",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:47:55.175Z"
+  },
+  {
+    "id": "2026-07-14-027-viorel-pasca-inapo",
+    "category": "funny",
+    "title": "Viorel Pașca: Înapoi pe oamenii luați de autorități în azile",
+    "summary": "TLDR: Viorel Pașca cere autorităților să îi trimită înapoi oamenii luați de instituții în urma DIICOT. O parte dintre ei este ținută împotriva voinței lor.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/07/WhatsApp-Image-2026-07-01-at-06.57.44-scaled.jpeg",
+    "imageAlt": "Viorel Pașca: Înapoi pe oamenii luați de autorități în azile",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/viorel-pasca-ii-cere-inapoi-pe-oamenii-luati-de-autoritati-din-azilele-de-la-dumbrava-o-parte-dintre-ei-sunt-tinuti-impotriva-vointei-lor-sunt-dispus-sa-ne-intalnim-pentru-a-gasi-solutii-pentru-a.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/viorel-pasca-ii-cere-inapoi-pe-oamenii-luati-de-autoritati-din-azilele-de-la-dumbrava-o-parte-dintre-ei-sunt-tinuti-impotriva-vointei-lor-sunt-dispus-sa-ne-intalnim-pentru-a-gasi-solutii-pentru-a.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:45:56.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "1f333a2e9b45de5647dba08d2b6a483d7416fd9a",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:48:23.345Z"
+  },
+  {
+    "id": "2026-07-14-028-cine-sunt-actionar",
+    "category": "funny",
+    "title": "Cine sunt acționarii HotNews",
+    "summary": "TLDR: Consiliul Concurenței a aprobat preluarea Pluralis B.V. de 17% din acțiuni, intrând în acționariat HotNews.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/05/10.jpg",
+    "imageAlt": "Cine sunt acționarii HotNews",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/cine-sunt-actionarii-hotnews-2300014",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/cine-sunt-actionarii-hotnews-2300014"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:45:55.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "d818960f62b9b3d6f6bbd97f1afa69374012916d",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:48:42.066Z"
+  },
+  {
+    "id": "2026-07-14-029-tapioca-de-ce-este",
+    "category": "culture",
+    "title": "Tapioca: De ce este popular și cum se folosește",
+    "summary": "TLDR: Faina de tapioca apare în diversitatea alimentară, fiind utilizată în perlele bubble tea, sosuri, și pâine fără gluten. Este foarte populară pentru alternative la faina cu gluten.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/faina-de-tapioca-620x413.jpg",
+    "imageAlt": "Tapioca: De ce este popular și cum se folosește",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/lifestyle/ce-este-faina-de-tapioca-retete-5814091",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/lifestyle/ce-este-faina-de-tapioca-retete-5814091"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:44:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8e39e4b0da991a72e9f653a19805ff17d5d76fc2",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:49:01.359Z"
+  },
+  {
+    "id": "2026-07-14-030-merita-sa-duci-cop",
+    "category": "culture",
+    "title": "Merită să duci copilul la un liceu privat?",
+    "summary": "TLDR: În perioada completării fișelor, părinții se întreabă dacă o școală privată ar fi varianta mai potrivită. Promisiunile sunt tentante, dar promisul este nevoiasă.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/liceu-privat.jpg",
+    "imageAlt": "Merită să duci copilul la un liceu privat?",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/merita-sa-duci-copilul-la-un-liceu-privat-seful-asociatiei-scolilor-private-spune-cand-nu-le-recomanda-parintilor-sa-aleaga-aceasta-varianta-2300012",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/merita-sa-duci-copilul-la-un-liceu-privat-seful-asociatiei-scolilor-private-spune-cand-nu-le-recomanda-parintilor-sa-aleaga-aceasta-varianta-2300012"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:43:22.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "fe76570116b46f1164e1f13d8a051c37b5de3d99",
+    "confidenceScore": 0.85,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:49:22.433Z"
+  },
+  {
+    "id": "2026-07-14-031-avion-atipic-la-cl",
+    "category": "funny",
+    "title": "Avion atipic la Cluj: ZiardeCluj explica",
+    "summary": "TLDR: Un vehicul aviației atipic a blocat strada. Vehiculul are lățimea de 6,50 m și lungimea de 46,0 m.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/55d746f68a9e750000f4badf3d40f1a6-622x1024-1-1140x694-1.webp",
+    "imageAlt": "Avion atipic la Cluj: ZiardeCluj explica",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/foto-un-avion-a-blocat-o-strada-din-cluj-explicatia-e-simpla-2300013",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/foto-un-avion-a-blocat-o-strada-din-cluj-explicatia-e-simpla-2300013"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:39:46.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "2fa61c1fca57204fe6f2614fb1def9e75ff5b299",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:49:42.958Z"
+  },
+  {
+    "id": "2026-07-14-032-ferrari-prezinta-i",
+    "category": "funny",
+    "title": "Ferrari prezintă imagini cu circuit F1 din Madrid",
+    "summary": "TLDR:Ferrari prezentă primele imaginee cu SF-26 pe traseul circuitului stradal de la Madrid pentru Formula 1, care va fi lansat în septembrie.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://www.g4media.ro//wp-content/uploads/2026/03/8087623-Hepta_Mediafax_Foto-ABACAPRESS_Hepta.jpg",
+    "imageAlt": "Ferrari prezintă imagini cu circuit F1 din Madrid",
+    "sourceName": "G4Media - General",
+    "sourceUrl": "https://www.g4media.ro/video-ferrari-prezinta-primele-imagini-cu-circuitul-stradal-de-f1-de-la-madrid.html",
+    "sources": [
+      {
+        "name": "G4Media - General",
+        "url": "https://www.g4media.ro/video-ferrari-prezinta-primele-imagini-cu-circuitul-stradal-de-f1-de-la-madrid.html"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:36:14.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "2182fc18f95077d28f85f527d76a4fe5448a708e",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:49:59.613Z"
+  },
+  {
+    "id": "2026-07-14-033-houthi-arme-asupra",
+    "category": "politics",
+    "title": "Houthi: Arme asupra Arabia Saudi",
+    "summary": "TLDR: Houthii au lansat rachete asupra Arabia Saudi, încălcând armistițiu de patru ani în conflicatul dintre saudiți și Iran.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzMxMV8yODQ3/MzExX3Byb2ZpbWVkaWEtMTExNjM3NTM5/MC5qcGcmaGFzaD02NGVkMTQyYTY3NDMyYmMwODg5M2QzMDQ1MTMzMWQzYw==.jpg",
+    "imageAlt": "Houthi: Arme asupra Arabia Saudi",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/mapamond/inca-un-armistitiu-din-orientul-mijlociu-atarna-de-un-fir-de-ata-rebelii-houthi-din-yemen-au-lansat-rachete-asupra-arabiei-saudite-3861423",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/mapamond/inca-un-armistitiu-din-orientul-mijlociu-atarna-de-un-fir-de-ata-rebelii-houthi-din-yemen-au-lansat-rachete-asupra-arabiei-saudite-3861423"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:36:04.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "05e6a123b2f7a47aaba50e1fdba310f34cfdae5c",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "Tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:50:17.205Z"
+  },
+  {
+    "id": "2026-07-14-034-daniel-daianu-nu-t",
+    "category": "business",
+    "title": "Daniel Dăianu: Nu Trebuie Lăsată Țara De Izbeliște",
+    "summary": "TLDR: Președintele Consiliului Fiscal Daniel Dăianu a avertizat că criza politică poate afecta evaluarea anuală a României de agențiile de rating.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA2dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjAl/MkYwNiUyRjE4JTJGMTE5Nzk0N18xMTk3/OTQ3X2RhbmllbC1kYWlhbnUtYWdlcnBy/ZXNfMTMyODAwNjQuanBlZyZoYXNoPWJi/M2U2YzhiZjYxNjYzZWI4YzljNzBjMTIyYmU3MzQ3.jpeg",
+    "imageAlt": "Daniel Dăianu: Nu Trebuie Lăsată Țara De Izbeliște",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/economie/daniel-daianu-inaintea-discutiilor-cu-agentiile-de-rating-nu-trebuie-lasata-tara-de-izbeliste-pentru-orgolii-personale-si-de-partid-3861389",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/economie/daniel-daianu-inaintea-discutiilor-cu-agentiile-de-rating-nu-trebuie-lasata-tara-de-izbeliste-pentru-orgolii-personale-si-de-partid-3861389"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:34:24.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "7b5a725350c9b7142f269e0b6008a9445e29d5b8",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:50:37.619Z"
+  },
+  {
+    "id": "2026-07-14-035-seful-microsoft-cu",
+    "category": "tech",
+    "title": "Șeful Microsoft cu avertisment înghețant pentru AI",
+    "summary": "TLDR: Dintre dezbaterile despre dezavantajele inteligenței artificiale, există o temeră care provoacează frământări în rândul entuziaștilor din Silicon Valley.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2024/04/image-2021-06-17-24865721-41-satya-nadella.jpg",
+    "imageAlt": "Șeful Microsoft cu avertisment înghețant pentru AI",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/seful-microsoft-avertisment-socant-pentru-companiile-ce-folosesc-ai-2299956",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/seful-microsoft-avertisment-socant-pentru-companiile-ce-folosesc-ai-2299956"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:33:14.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "1a6153cd20a3ca9258dad4d6eb688d64c6b912b9",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:50:55.942Z"
+  },
+  {
+    "id": "2026-07-14-036-zyx-group-pluralis",
+    "category": "business",
+    "title": "ZYX Group: Pluralis B.V. achiziționează 17% acțiunilor",
+    "summary": "TLDR: Vineri, ZYX Group a finalizat tranzacția cu Pluralis B.V., achiziționând 17% din acțiunile sale.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/poza-parteneriat-2.jpg",
+    "imageAlt": "ZYX Group: Pluralis B.V. achiziționează 17% acțiunilor",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/zyx-group-anunta-finalizarea-tranzactiei-cu-pluralis-b-v-17-din-actiunile-companiei-au-fost-achizitionate-de-vehicululde-investitii-dedicat-sustinerii-presei-independente-administrat-de-organizatia-2299812",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/zyx-group-anunta-finalizarea-tranzactiei-cu-pluralis-b-v-17-din-actiunile-companiei-au-fost-achizitionate-de-vehicululde-investitii-dedicat-sustinerii-presei-independente-administrat-de-organizatia-2299812"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:30:21.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "1549e49fd425909b44e57128d8050ae2c3d11bb0",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:51:16.850Z"
+  },
+  {
+    "id": "2026-07-14-037-alex-rusu-9-ani-3-",
+    "category": "science",
+    "title": "Alex Rusu: 9 ani, 3 medalii Olimpiada STEM",
+    "summary": "TLDR: Un elev român de 9 ani a câștigat trei medalii la Olimpiada Internațională STEM în România.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/alex-rusu-9-ani-olimpiada-matematica-regatul-unit-620x349.jpg",
+    "imageAlt": "Alex Rusu: 9 ani, 3 medalii Olimpiada STEM",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/alex-rusu-roman-9-ani-trei-medalii-olimpiada-internationala-stem-roma-5814520",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/alex-rusu-roman-9-ani-trei-medalii-olimpiada-internationala-stem-roma-5814520"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:29:55.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "097e4bc4f1cb8a1ea70a2f2a3b8856714df9d670",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:51:34.814Z"
+  },
+  {
+    "id": "2026-07-14-038-bogdan-ivan-nu-le-",
+    "category": "politics",
+    "title": "Bogdan Ivan: Nu Le Vom Da Un Vot În Alb Proiectele PNRR",
+    "summary": "TLDR: Fostul ministru al Energiei Bogdan Ivan susține că PSD nu va da un vot în alb pentru proiectele de lege din PNRR, care au fost propuse de Guvernul demis Bolojan.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjI1JTJGMjgwNzcxM18yODA3/NzEzX2JvZ2Rhbi1pdmFuLWlucXVhbS1z/YWJpbi1jaXJzdG92ZWFudS5qcGcmaGFz/aD1kMTAzOWFmZTk5MDkwOWMzNDI2NmI1ODExNmZkM2IyYQ==.jpg",
+    "imageAlt": "Bogdan Ivan: Nu Le Vom Da Un Vot În Alb Proiectele PNRR",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/bogdan-ivan-despre-blocarea-proiectelor-din-pnrr-nu-le-vom-da-un-vot-in-alb-celor-care-au-demonstrat-ca-nu-se-tin-de-cuvant-3861395",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/bogdan-ivan-despre-blocarea-proiectelor-din-pnrr-nu-le-vom-da-un-vot-in-alb-celor-care-au-demonstrat-ca-nu-se-tin-de-cuvant-3861395"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:21:40.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "4ccb7c6d127dedb2bf60ffa4af7ef57fb313f226",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:51:57.795Z"
+  },
+  {
+    "id": "2026-07-14-039-fost-diplomat-trum",
+    "category": "politics",
+    "title": "Fost diplomat: Trump se dă seama că Ucraina va câștiga",
+    "summary": "TLDR: Fost membru al Consiliului de Securitate Națională al Casei Albe, Matthew Bryza, susține că Trump a crescut interesul pentru Ucraina din cauza potențialui câștig în război.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNCUyRjAxJTJGMjY2MTE5NF8yNjYx/MTk0X3NvbGRhdGktcnVzaS1pbnN0cnVj/dGllLTIuanBnJmhhc2g9ZTY2YWUzNmRkMWE0NWYzNmY5NzVkY2Y4ZjI3OThjOGQ=.jpg",
+    "imageAlt": "Fost diplomat: Trump se dă seama că Ucraina va câștiga",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/fost-diplomat-american-trump-isi-da-seama-ca-ucraina-va-fi-cel-mai-probabil-castigatoarea-iar-rusia-perdanta-3861367",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/fost-diplomat-american-trump-isi-da-seama-ca-ucraina-va-fi-cel-mai-probabil-castigatoarea-iar-rusia-perdanta-3861367"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:18:59.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "c69fc7807f16a0e7417d18d27e301ef72e39c605",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:52:21.670Z"
+  },
+  {
+    "id": "2026-07-14-040-nicusor-dan-discut",
+    "category": "politics",
+    "title": "Nicușor Dan: Discuțiile cu Partidele și Blocajul",
+    "summary": "TLDR: Nicușor Dan dezvăluie discuțiile cu PSD, PNL, USR și UDMR, declara că nu există niciun consens, iar blocarea nu este la nivelul primului ministru.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/nicusor-dan-dezvaluie-ce-a-discutat-cu-psd-pnl-usr-si-udmr-vorbeste-de-alegerile-anticipate-si-spune-ce-guvern-si-ar-dori-e1784016018291-620x348.jpg",
+    "imageAlt": "Nicușor Dan: Discuțiile cu Partidele și Blocajul",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/nicusor-dan-dezvaluie-ce-a-discutat-cu-psd-pnl-usr-si-udmr-vorbeste-de-alegerile-anticipate-5814565",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/nicusor-dan-dezvaluie-ce-a-discutat-cu-psd-pnl-usr-si-udmr-vorbeste-de-alegerile-anticipate-5814565"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:17:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "f95598e542c0e49730809a62194f5f5337418602",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:52:47.080Z"
+  },
+  {
+    "id": "2026-07-14-041-povestea-celor-doi",
+    "category": "science",
+    "title": "Povestea celor doi români din Boston",
+    "summary": "TLDR: Aline și Claudiu Badea, doi români din Boston, au casătorit la bord Nava-Școală Mircea. Destinul lor a fost unit în portul american.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/romani-boston-casatorit-bord-nava-scoala-mircea-1-620x362.jpg",
+    "imageAlt": "Povestea celor doi români din Boston",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/poveste-alina-claudiu-badea-doi-romani-boston-casatorit-bord-nava-scoala-mircea-port-american-5814546",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/poveste-alina-claudiu-badea-doi-romani-boston-casatorit-bord-nava-scoala-mircea-port-american-5814546"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:15:39.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "9d765a74e67d39a90880573e0aadef81cf7b3754",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:53:09.109Z"
+  },
+  {
+    "id": "2026-07-14-042-franta-spania-semi",
+    "category": "sports",
+    "title": "Franța-Spania: Semifinal Cupa Mondială 2026",
+    "summary": "TLDR: Franța și Spania joacă semifinal la Cupa Mondială, martie, cu Ivan Barton ca judecată. Meciul este un punct de criză pentru Franța.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/profimedia-1116350217.jpg",
+    "imageAlt": "Franța-Spania: Semifinal Cupa Mondială 2026",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/franta-spania-semifinala-de-vis-la-cupa-mondiala-2026-voi-insiva-spuneti-ca-nu-sunt-la-apogeul-meu-asa-ca-nu-va-asteptati-sa-vedeti-nimic-special-2299948",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/franta-spania-semifinala-de-vis-la-cupa-mondiala-2026-voi-insiva-spuneti-ca-nu-sunt-la-apogeul-meu-asa-ca-nu-va-asteptati-sa-vedeti-nimic-special-2299948"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:15:33.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "121fb9bb2a0dfb576aecf00a5ad9f857e5030084",
+    "confidenceScore": 0.85,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:53:33.629Z"
+  },
+  {
+    "id": "2026-07-14-043-siegfried-muresan-",
+    "category": "politics",
+    "title": "Siegfried Mureșan: Anticipatele nu sunt neobișnuită, excluzia lui Președinte",
+    "summary": "TLDR: Premierul Siegfried Mureșan a declarat că alegerile anticipate nu sunt neobișnuite, dar a fost surprins de exclusia președintelui României pentru pârghie constituțională.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNiUyRjA0JTJGMjc3MTYyNV8yNzcx/NjI1X1NpZWdmcmllZC1NdXJlc2FuLWlu/cXVhbS5qcGcmaGFzaD1jOWFkMGNkYTk5MDBmMGY4Y2Y1NjkxN2MxYWUwZGIwOQ==.jpg",
+    "imageAlt": "Siegfried Mureșan: Anticipatele nu sunt neobișnuită, excluzia lui Președinte",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/actualitate/politica/siegfried-muresan-anticipatele-nu-sunt-o-chestie-neobisnuita-n-am-inteles-de-ce-presedintele-a-exclus-aceasta-parghie-constitutionala-3861299",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/politica/siegfried-muresan-anticipatele-nu-sunt-o-chestie-neobisnuita-n-am-inteles-de-ce-presedintele-a-exclus-aceasta-parghie-constitutionala-3861299"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:14:30.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "5f8c45111bc6c69150acceae87be25fe77da640a",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:53:59.800Z"
+  },
+  {
+    "id": "2026-07-14-044-nicusor-dan-nu-exc",
+    "category": "politics",
+    "title": "Nicușor Dan: Nu Exclud Alegeri Anticipate",
+    "summary": "TLDR: Președintele Nicușor Dan a spus pentru prima dată că nu exclude declanșarea alegerilor anticipate.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/05/profimedia-1100032129.jpg",
+    "imageAlt": "Nicușor Dan: Nu Exclud Alegeri Anticipate",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/nicusor-dan-anunt-in-premiera-despre-anticipate-nu-este-ceva-ce-eu-sa-mi-doresc-nu-exclud-2299961",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/nicusor-dan-anunt-in-premiera-despre-anticipate-nu-este-ceva-ce-eu-sa-mi-doresc-nu-exclud-2299961"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:12:11.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "b33c90f0e6767d0e78e42986ad08c982e1b71185",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:54:19.102Z"
+  },
+  {
+    "id": "2026-07-14-045-rusia-ucraina-folo",
+    "category": "business",
+    "title": "Rusia: Ucraina folosea baloane și drone pentru atac",
+    "summary": "TLDR: Rusia: Ucraina au folosit baloane, remorci și drone într-o operațiune clandestină de atac cu quadcoptere ai mult în interiorul țării.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/Drona-quadcopter-ucraineana.jpg",
+    "imageAlt": "Rusia: Ucraina folosea baloane și drone pentru atac",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/rusia-spune-ca-ucrainenii-au-folosit-baloane-remorci-si-drone-ca-sa-strecoare-quadcoptere-de-atac-cu-ai-mult-in-interiorul-tarii-2299936",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/rusia-spune-ca-ucrainenii-au-folosit-baloane-remorci-si-drone-ca-sa-strecoare-quadcoptere-de-atac-cu-ai-mult-in-interiorul-tarii-2299936"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:11:20.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "e0cb6eb40464c1d74c74f4a4575bbb8649ad9bea",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:54:40.066Z"
+  },
+  {
+    "id": "2026-07-14-046-metaminds-profit-n",
+    "category": "business",
+    "title": "Metaminds: Profit Net de 20,34 Milioane Lei",
+    "summary": "TLDR: Metaminds raportează profit net de 20,34 milioane lei în 2025 și extinde expertiză la apărare și siguranță națională.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/Foto-Metaminds.jpg",
+    "imageAlt": "Metaminds: Profit Net de 20,34 Milioane Lei",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/cel-mai-mare-integrator-it-cu-capital-100-romanesc-raporteaza-un-profit-net-de-2034-milioane-lei-in-2025-si-anunta-ca-isi-extinde-aria-de-expertiza-catre-sectorul-de-aparare-si-siguranta-nationala-2299959",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/cel-mai-mare-integrator-it-cu-capital-100-romanesc-raporteaza-un-profit-net-de-2034-milioane-lei-in-2025-si-anunta-ca-isi-extinde-aria-de-expertiza-catre-sectorul-de-aparare-si-siguranta-nationala-2299959"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:10:16.000Z",
+    "isPick": true,
+    "origin": "rss",
+    "fingerprint": "1a48f40f0bab972f5055b0aa81933fc5d1553ffb",
+    "confidenceScore": 1,
+    "needsHumanReview": false,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:55:01.494Z"
+  },
+  {
+    "id": "2026-07-14-047-romania-institutii",
+    "category": "politics",
+    "title": "România: Instituțiile Intermediate",
+    "summary": "TLDR: Guvernul și Avocatul Poporului au lideri teoretic semiși, în timp ce partidele se alăturelor de tranziția.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/ilie-bolojan-dupa-sedinta-a-pnl-foto-vlad-chirea-620x413.jpeg",
+    "imageAlt": "România: Instituțiile Intermediate",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/institutii-interimate-sefi-demisi-5811509",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/institutii-interimate-sefi-demisi-5811509"
+      }
+    ],
+    "publishedAt": "2026-07-14T08:00:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "c8190dbb1ba2527979922b317051f03f57025456",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:55:17.050Z"
+  },
+  {
+    "id": "2026-07-14-048-prim-ministrul-pol",
+    "category": "funny",
+    "title": "Prim-ministrul Poloniei: Pacea în Ucraina nu este restabilă în curând",
+    "summary": "TLDR: Donald Tusk: Pacea în Ucraina nu este restabilă în curând, Rusia se așteaptă să prelungească conflictul până în iarnă.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2025/09/profimedia-1036075330.jpg",
+    "imageAlt": "Prim-ministrul Poloniei: Pacea în Ucraina nu este restabilă în curând",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/prim-ministrul-poloniei-face-o-predictie-sumbra-despre-intentiile-rusiei-in-razboiul-din-ucraina-2299859",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/prim-ministrul-poloniei-face-o-predictie-sumbra-despre-intentiile-rusiei-in-razboiul-din-ucraina-2299859"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:58:38.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8cb4c1bff950a437285eb161c07f2ba0dbe813e3",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:55:35.553Z"
+  },
+  {
+    "id": "2026-07-14-049-durerea-de-spate-c",
+    "category": "politics",
+    "title": "Durerea de spate care coboare pe picior",
+    "summary": "TLDR: Durerea de spate este frecventă, dar poate fi indicativă a unei compresii asupra rădăcinelor nervoase. Evaluarea medicală este necesară în aceste situații.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYwOCUyRjA1JTJGMjMyMTUzNV8yMzIx/NTM1X0lvbnV0LUx1Y2EtSHVzdGkuanBn/Jmhhc2g9YzdmNWMxM2Y0NjQ4ZmNkNTgyNTNlZWNiOGEwNjRlZTc=.jpg",
+    "imageAlt": "Durerea de spate care coboare pe picior",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/sanatate-digimatinal/durerea-de-spate-care-coboara-pe-picior-care-poate-fi-cauza-3860349",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/sanatate-digimatinal/durerea-de-spate-care-coboara-pe-picior-care-poate-fi-cauza-3860349"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:57:58.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "94949599eb19e83a62aa0175603247b138994437",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:55:54.258Z"
+  },
+  {
+    "id": "2026-07-14-050-intrebarea-saptama",
+    "category": "politics",
+    "title": "ÎNTREBAREA SĂPTămânii: Partidele vor negocia?",
+    "summary": "TLDR: Florin Negruțiu și Claudiu Pândaru sugerează că partidele doar mimează negocierile, nu le spun să continue.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjMl/MkYwOCUyRjMxJTJGMTc5MjA1N18xNzky/MDU3X3BhbmRhcnUtbmVncnV0aXUtaW50/cmViYXJlYS1zYXB0YW1hbmlpLnBuZyZo/YXNoPTAyMDQ3NzJhNTQwZDc5MWI2NWUxYzdhNDk2ODE5N2I2.png",
+    "imageAlt": "ÎNTREBAREA SĂPTămânii: Partidele vor negocia?",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/opinii/intrebarea-saptamanii/intrebarea-saptamanii-mai-vor-partidele-sa-negocieze-un-guvern-sau-doar-mimeaza-negocierile-3861347",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/opinii/intrebarea-saptamanii/intrebarea-saptamanii-mai-vor-partidele-sa-negocieze-un-guvern-sau-doar-mimeaza-negocierile-3861347"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:49:42.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "67909243b6d7d27cd06c6965fd68d895f9644b42",
+    "confidenceScore": 0.85,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:56:12.410Z"
+  },
+  {
+    "id": "2026-07-14-051-prognoza-speciala-",
+    "category": "weather",
+    "title": "Prognoză specială pentru București",
+    "summary": "TLDR: Meteorologii anunță averse, descărcări electrice și înnorări. Vremea va fi călduroasă cu indicele temperatură-umezeală (ITU) la 80 unități.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/dreamstime_s_245138202.jpg",
+    "imageAlt": "Prognoză specială pentru București",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/prognoza-speciala-pentru-bucuresti-2299915",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/prognoza-speciala-pentru-bucuresti-2299915"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:46:26.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "80b401f84ddc88c28dbe1a14b3f1efd059d5799a",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "The summary is a factual weather forecast without any sensitive or harmful content.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:56:30.816Z"
+  },
+  {
+    "id": "2026-07-14-052-sute-de-cereri-zer",
+    "category": "business",
+    "title": "Sute de cereri, zero negocieri: IFN-urile",
+    "summary": "TLDR: IFN-urile au reușit să nu negoceze niciun lucru înaintea consumatorilor care își trimițau cele mai multe cereri.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/bani_lei_mana.webp",
+    "imageAlt": "Sute de cereri, zero negocieri: IFN-urile",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/sute-de-cereri-zero-negocieri-cum-trateaza-ifn-urile-nemultumirile-oamenilor-2299914",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/sute-de-cereri-zero-negocieri-cum-trateaza-ifn-urile-nemultumirile-oamenilor-2299914"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:46:17.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "c1aa349619a2a7c468643de24c999c451c410e76",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:56:48.924Z"
+  },
+  {
+    "id": "2026-07-14-053-franta-mobilizata-",
+    "category": "tragedy",
+    "title": "Franța mobilizată după incendiu la Palat Fontainebleau",
+    "summary": "TLDR: Pompieri au luptat cu foc din nopți. Două persoane sancotează să fi provocat focul în apropiere de unul dintre cele mai cunoscute palate regale ale Franței.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2026/07/profimedia-1116342666.jpg",
+    "imageAlt": "Franța mobilizată după incendiu la Palat Fontainebleau",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/franta-mobilizare-masiva-dupa-ce-celebrul-palat-fontainebleau-a-fost-amenintat-de-un-incendiu-de-vegetatie-2299898",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/franta-mobilizare-masiva-dupa-ce-celebrul-palat-fontainebleau-a-fost-amenintat-de-un-incendiu-de-vegetatie-2299898"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:44:44.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "de382e64d9a6a898d169a3e8d6fec8d963dbf291",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:57:08.224Z"
+  },
+  {
+    "id": "2026-07-14-054-nicusor-dan-la-sum",
+    "category": "politics",
+    "title": "Nicușor Dan la Summitul Ucraina-Europa de Sud-Est",
+    "summary": "TLDR: Președintele României Nicușor Dan va participa la Summitul Ucraina-Europa de Sud-Est, invitat de Volodimir Zelenski, miercuri în Kiev.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/nicusor-dan-pleaca-la-kiev-la-o-luna-dupa-ce-o-drona-din-ucraina-a-explodat-in-portul-constanta-pentru-summitul-ucraina-europa-de-sud-est-la-invitatia-lui-zelenski-e1784013890337-620x348.jpg",
+    "imageAlt": "Nicușor Dan la Summitul Ucraina-Europa de Sud-Est",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/nicusor-dan-vizita-kiev-drona-ucraina-explodat-portul-constanta-summitul-ucraina-europa-de-sud-est-zelenski-5814501",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/nicusor-dan-vizita-kiev-drona-ucraina-explodat-portul-constanta-summitul-ucraina-europa-de-sud-est-zelenski-5814501"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:44:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "e34f3b63930e5add436afcf0c652930beeb56532",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:57:29.024Z"
+  },
+  {
+    "id": "2026-07-14-055-ploi-torentiale-in",
+    "category": "weather",
+    "title": "Ploi torențiale în 25 județe",
+    "summary": "TLDR: Ploi severă în 25 de județe, ANM emite avertizare cod galben.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2025/05/furtuna-fulgere-nori-meteo-vremea-620x362.jpg",
+    "imageAlt": "Ploi torențiale în 25 județe",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/ploi-torentiale-vijelii-grindina-romania-harta-zone-vizate-avertizare-meteo-cod-galben-anm-5814526",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/ploi-torentiale-vijelii-grindina-romania-harta-zone-vizate-avertizare-meteo-cod-galben-anm-5814526"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:41:28.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "2eec8d4d7052fa21685c18e6b259e55fc2c28ea6",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:57:47.707Z"
+  },
+  {
+    "id": "2026-07-14-056-tara-ue-care-se-in",
+    "category": "politics",
+    "title": "Țara UE care se înarmează masiv",
+    "summary": "TLDR: Numărul aplicațiilor de „obiectia de conștiință” față de serviciul militar în Germania a crescut, iar tot mai mulți tineri refuze serviciul.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzE2OV8yODQ3/MTY5X3Byb2ZpbWVkaWEtMTAzNDE0NTc1/NC5qcGcmaGFzaD0yMjNhZTZkZTc5NmRkZGFhYmJiNjMwZGU2ZGI4ZDY3YQ==.jpg",
+    "imageAlt": "Țara UE care se înarmează masiv",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/ue/tara-ue-care-se-inarmeaza-masiv-dar-in-care-tot-mai-multi-tineri-refuza-serviciul-militar-ce-este-obiectia-de-constiinta-3861337",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/ue/tara-ue-care-se-inarmeaza-masiv-dar-in-care-tot-mai-multi-tineri-refuza-serviciul-militar-ce-este-obiectia-de-constiinta-3861337"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:41:22.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "c3c4c8e3fe9859c1bf4e1da0bab59762f88e21f9",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:58:10.985Z"
+  },
+  {
+    "id": "2026-07-14-057-avertizare-meteo-p",
+    "category": "weather",
+    "title": "Avertizare meteo pentru județe",
+    "summary": "TLDR: ANM emite avertisment galben pentru vijelii și ploi torențiale în mai multe județe, miercuri între orele 12:00 și 21:00.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://hotnews.ro/wp-content/uploads/2025/08/ID90772_INQUAM_Photos_Octav_Ganea.webp",
+    "imageAlt": "Avertizare meteo pentru județe",
+    "sourceName": "HotNews - Actualitate",
+    "sourceUrl": "https://hotnews.ro/avertizare-meteo-de-vijelii-si-ploi-torentiale-in-mai-multe-judete-anuntul-anm-2299902",
+    "sources": [
+      {
+        "name": "HotNews - Actualitate",
+        "url": "https://hotnews.ro/avertizare-meteo-de-vijelii-si-ploi-torentiale-in-mai-multe-judete-anuntul-anm-2299902"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:39:35.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "8d89f23493a5f29ce407f7231cc9f817cd8ed439",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:58:34.714Z"
+  },
+  {
+    "id": "2026-07-14-058-adelina-pestritu-s",
+    "category": "funny",
+    "title": "Adelina Pestrițu și Iulia Vântur în Turcia",
+    "summary": "TLDR: Adelina Pestrițu și Iulia Vântur au fost fotografează în Turcia pentru show-ul 'Burlacii'.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/adelina-pestritu-si-iulia-vantur-620x362.jpg",
+    "imageAlt": "Adelina Pestrițu și Iulia Vântur în Turcia",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/entertainment/cum-au-aparut-adelina-pestritu-si-iulia-vantur-in-turcia-imagini-rare-cu-cele-doua-vedete-cand-romania-si-india-se-intalnesc-5814555",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/cum-au-aparut-adelina-pestritu-si-iulia-vantur-in-turcia-imagini-rare-cu-cele-doua-vedete-cand-romania-si-india-se-intalnesc-5814555"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:38:01.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "1fda33d946f3498f9c77e5efd38f6d23b7141dae",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:59:00.101Z"
+  },
+  {
+    "id": "2026-07-14-059-sora-lui-lindsey-g",
+    "category": "politics",
+    "title": "Sora lui Lindsey Graham în Senat",
+    "summary": "TLDR: Sora mai mică a senatorului american Graham va prelua atribuțiile acestuia după moartea neașteptată.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzE2M18yODQ3/MTYzX3Byb2ZpbWVkaWEtMTExNjM3MTg5/Ni5qcGcmaGFzaD1kYjU0YmFlYTdjYTJkMGM1ZDM5YmQwNTcyYzM5ZDkyYw==.jpg",
+    "imageAlt": "Sora lui Lindsey Graham în Senat",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/sua/sora-lui-lindsey-graham-va-ocupa-locul-acestuia-in-senat-dupa-moartea-politicianului-republican-3861319",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/sua/sora-lui-lindsey-graham-va-ocupa-locul-acestuia-in-senat-dupa-moartea-politicianului-republican-3861319"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:37:52.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "62a61ba46937ab44b79a8bd7056b7d8b83d9ca44",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:59:19.505Z"
+  },
+  {
+    "id": "2026-07-14-060-31-000-euro-plus-p",
+    "category": "business",
+    "title": "31.000 euro plus profitul",
+    "summary": "TLDR: Doi chirii din Utrecht plătește peste 31.000 euro pentru ilegalizarea închirierii de casa unor soferi TIR români, cu obligația de a restituie profitul.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/02/reguli-soferi-de-tir-spania-e1784014226348-620x349.jpg",
+    "imageAlt": "31.000 euro plus profitul",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/31000-euro-plus-profit-dat-inapoi-cei-care-au-inchiriat-ilegal-casa-soferi-romani-tir-olanda-5814550",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/31000-euro-plus-profit-dat-inapoi-cei-care-au-inchiriat-ilegal-casa-soferi-romani-tir-olanda-5814550"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:33:35.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "f0c866de7e29f8a008a3773727a1e9e335147a1c",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T09:59:43.939Z"
+  },
+  {
+    "id": "2026-07-14-061-premiera-teodor-ho",
+    "category": "health",
+    "title": "Premieră: Teodor Holhoș la Vienna",
+    "summary": "TLDR: Medicul român Teodor Holhoș invitat să realizeze operații oftalmologice la Viena. Standardele de calitate și experiența lui fac ca aceste tratamente să fie considerate cea mai bună opțiune.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/324a2194-620x413.jpg",
+    "imageAlt": "Premieră: Teodor Holhoș la Vienna",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/lifestyle/premiera-medicul-roman-teodor-holhos-invitat-sa-realizeze-operatii-oftalmologice-la-viena-5814548",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/lifestyle/premiera-medicul-roman-teodor-holhos-invitat-sa-realizeze-operatii-oftalmologice-la-viena-5814548"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:28:53.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "853e265ac9f7665c267da8efe3544b90620e81e8",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:00:03.011Z"
+  },
+  {
+    "id": "2026-07-14-062-trimisul-lui-putin",
+    "category": "politics",
+    "title": "Trimisul lui Putin la Chișinău",
+    "summary": "TLDR: Ambasadorul Ruse a fost convocat la Ministerul Afacerilor Externe din Moldova.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjUl/MkYxMCUyRjI4JTJGMjQwODIxMl8yNDA4/MjEyX09sZWctT3plcm92LmpwZyZoYXNo/PTQ5MWRiMDJiNzlhZTVjNGVjMGNlNmIxYzNlN2EwNmE0.jpg",
+    "imageAlt": "Trimisul lui Putin la Chișinău",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/moldova/trimisul-lui-putin-la-chisinau-a-fost-convocat-la-ministerul-afacerilor-externe-din-republica-moldova-3861307",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/moldova/trimisul-lui-putin-la-chisinau-a-fost-convocat-la-ministerul-afacerilor-externe-din-republica-moldova-3861307"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:23:27.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "97a3e6e5bf3650ef0eb1458b807b2fd07582593a",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:00:17.711Z"
+  },
+  {
+    "id": "2026-07-14-063-avertismentul-sefu",
+    "category": "politics",
+    "title": "Avertismentul șefului diplomației germane: Rusia",
+    "summary": "TLDR: Wadephul: Rusia este tot mai activă în regiune de importanţă maximă pentru securitatea noastră.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjI5JTJGMjc1MTg1MF8yNzUx/ODUwX0pvaGFubi1XYWRlcGh1bC5qcGcm/aGFzaD1hZWRiMzVkMWU2MzdiMTJkZTQ2YjcwMDE2NmIyMzRlOA==.jpg",
+    "imageAlt": "Avertismentul șefului diplomației germane: Rusia",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/externe/avertismentul-sefului-diplomatiei-germane-rusia-este-tot-mai-activa-intr-o-regiune-de-maxima-importanta-pentru-securitatea-noastra-3861295",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/externe/avertismentul-sefului-diplomatiei-germane-rusia-este-tot-mai-activa-intr-o-regiune-de-maxima-importanta-pentru-securitatea-noastra-3861295"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:21:51.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "ebdaaf61e3000d38b02d362fa688f4aff90de9ae",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:00:35.035Z"
+  },
+  {
+    "id": "2026-07-14-064-avion-dezafectat-b",
+    "category": "politics",
+    "title": "Avion Dezafectat Blocat în Cluj-Napoca",
+    "summary": "TLDR: Un sens din Cluj-Napoca a fost blocat de un avion dezafectat, transportat de la București.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjE0JTJGMjg0NzA5Ml8yODQ3/MDkyX0lEMTkwOTg4LUlOUVVBTS1QSE9U/T1MtQ09TTUlOLUVOQUNIRS5qcGcmaGFz/aD1iYzgyNjhkY2UyZGViNTBjMWRjYThiODVhZDVmNzZkZA==.jpg",
+    "imageAlt": "Avion Dezafectat Blocat în Cluj-Napoca",
+    "sourceName": "Digi24 - Politica",
+    "sourceUrl": "https://www.digi24.ro/stiri/actualitate/un-avion-dezafectat-a-blocat-o-intersectie-din-cluj-napoca-3861279",
+    "sources": [
+      {
+        "name": "Digi24 - Politica",
+        "url": "https://www.digi24.ro/stiri/actualitate/un-avion-dezafectat-a-blocat-o-intersectie-din-cluj-napoca-3861279"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:16:10.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "406ffc776cc47900fe9c5784d4f5de0151c0d943",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "medium",
+    "safetyReason": "tragedy/politics sensitive claims",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:00:49.175Z"
+  },
+  {
+    "id": "2026-07-14-065-termenul-de-expira",
+    "category": "culture",
+    "title": "Termenul de expirare al parfumului",
+    "summary": "TLDR: Libertatea - Stiri: Alegerea lui este, de cele mai multe ori, motiv pentru care termenul de expirare al unui parfum poate varia în funcție de ingredientele.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/parfum-principala-620x310.jpg",
+    "imageAlt": "Termenul de expirare al parfumului",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/entertainment/care-este-de-fapt-termenul-de-expirare-al-unui-parfum-anumite-tipuri-de-ingrediente-se-degradeaza-mai-rapid-5813788",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/care-este-de-fapt-termenul-de-expirare-al-unui-parfum-anumite-tipuri-de-ingrediente-se-degradeaza-mai-rapid-5813788"
+      }
+    ],
+    "publishedAt": "2026-07-14T07:00:00.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "22c25725c2ba9c0b0e79d3cdaceeb6db29682170",
+    "confidenceScore": 0.8,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:01:07.494Z"
+  },
+  {
+    "id": "2026-07-14-066-cluj-napoca-cu-un-",
+    "category": "business",
+    "title": "Cluj-Napoca cu un nou pod pentru Someșul Mic",
+    "summary": "TLDR: Municipiul Cluj-Napoca va avea un nou pod peste râul Someșul Mic, financiarizat de fonduri europene și buget local.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/nou-pod-cluj-fabrica-de-zahar-6-milioane-euro-620x349.jpg",
+    "imageAlt": "Cluj-Napoca cu un nou pod pentru Someșul Mic",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/stiri-cluj-pod-nou-cluj-6-milioane-euro-somesul-mic-5814452",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/stiri-cluj-pod-nou-cluj-6-milioane-euro-somesul-mic-5814452"
+      }
+    ],
+    "publishedAt": "2026-07-14T06:58:47.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "59678638113334f6ad80f449130d963a52e090db",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summaries with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:01:25.198Z"
+  },
+  {
+    "id": "2026-07-14-067-vremea-in-perioada",
+    "category": "weather",
+    "title": "Vremea în perioada 13 iulie-10 august 2026",
+    "summary": "TLDR: Temperaturile sub obișnuite pentru săptămâna viitoare, cresc după aceasta. Precipitațiile vor fi abundente până la sfârșitul lunii.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/vreme-prognoza-meteo-iulie-august-2026-e1784011575687-620x348.jpg",
+    "imageAlt": "Vremea în perioada 13 iulie-10 august 2026",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/vreme-prognoza-meteo-anm-13-iulie-10-august-2026-5814503",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/vreme-prognoza-meteo-anm-13-iulie-10-august-2026-5814503"
+      }
+    ],
+    "publishedAt": "2026-07-14T06:52:37.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "1bd758f9e56623f35d485831b691019fabd94447",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:01:44.697Z"
+  },
+  {
+    "id": "2026-07-14-068-marian-godina-si-g",
+    "category": "funny",
+    "title": "Marian Godină și gustarea lui la malul mării",
+    "summary": "TLDR: Marian Godină plătește 1.500 de lei pentru o gustare pescărească la malul mării din Constanța.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/06/marian-godina-620x361.jpg",
+    "imageAlt": "Marian Godină și gustarea lui la malul mării",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/entertainment/cat-a-platit-marian-godina-pentru-o-gustare-pescareasca-la-malul-marii-5814502",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/cat-a-platit-marian-godina-pentru-o-gustare-pescareasca-la-malul-marii-5814502"
+      }
+    ],
+    "publishedAt": "2026-07-14T06:51:54.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "6fd3838195784d63122069d4b03f3bbdd62453de",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link.",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:02:03.980Z"
+  },
+  {
+    "id": "2026-07-14-069-sabrina-gonzalez-p",
+    "category": "science",
+    "title": "Sabrina Gonzalez Pasterski: Fiziciană cu nume de viitor Einstein",
+    "summary": "TLDR: Fizicană considerată 'viitorul Einstein', Pasterski a refuzat ofertele de 1.100.000 dolari ale NASA și Jeff Bezos.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2026/07/sabrina-pasterski-gonzalez-fiziciana-620x349.jpg",
+    "imageAlt": "Sabrina Gonzalez Pasterski: Fiziciană cu nume de viitor Einstein",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/stiri/sabrina-gonzalez-pasterski-fiziciana-denumita-viitorul-einstein-refuzat-nasa-jeff-bezos-5814447",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/stiri/sabrina-gonzalez-pasterski-fiziciana-denumita-viitorul-einstein-refuzat-nasa-jeff-bezos-5814447"
+      }
+    ],
+    "publishedAt": "2026-07-14T06:33:18.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "5a3c614e9b17f7fec5e055cf3a42c2517a417fde",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "Factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:02:23.044Z"
+  },
+  {
+    "id": "2026-07-14-070-actrita-ada-gales-",
+    "category": "funny",
+    "title": "Actrița Ada Galeș: Înainte de primul pas",
+    "summary": "TLDR: Actrița Ada Galeș a vorbit înainte de primul pas ca mamă, povestind experiența sa.",
+    "whyItMatters": "De ce conteaza: oferim context rapid si link direct catre sursa completa.",
+    "image": "https://static4.libertatea.ro/wp-content/uploads/2024/12/ada-gales-e1734474810382-620x349.jpg",
+    "imageAlt": "Actrița Ada Galeș: Înainte de primul pas",
+    "sourceName": "Libertatea - Stiri",
+    "sourceUrl": "https://www.libertatea.ro/entertainment/actrita-ada-gales-a-pierdut-sarcina-este-pentru-prima-oara-cand-vorbeste-5814491",
+    "sources": [
+      {
+        "name": "Libertatea - Stiri",
+        "url": "https://www.libertatea.ro/entertainment/actrita-ada-gales-a-pierdut-sarcina-este-pentru-prima-oara-cand-vorbeste-5814491"
+      }
+    ],
+    "publishedAt": "2026-07-14T06:24:31.000Z",
+    "isPick": false,
+    "origin": "rss",
+    "fingerprint": "2be3e344f9dffc5a2a1bbc4571bd03f40dff506b",
+    "confidenceScore": 0.9,
+    "needsHumanReview": true,
+    "legalRisk": "low",
+    "safetyReason": "factual neutral summary with clear source link",
+    "generatedBy": "ollama:qwen2.5:3b-instruct",
+    "generatedAt": "2026-07-14T10:02:40.257Z"
   }
 ]

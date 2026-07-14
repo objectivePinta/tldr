@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prea Lung! N-am citit! stiri scurte</title>
+  <title>Prea Lung! N-am citit!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700;800&display=swap" rel="stylesheet">
@@ -14,81 +14,66 @@
   <meta property="og:title" content="Prea Lung! N-am citit! stiri scurte">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://objectivepinta.github.io/tldr/">
-  <meta property="og:image" content="https://objectivepinta.github.io/tldr/icon.png">
+  <meta property="og:image" content="https://objectivepinta.github.io/tldr/img.png">
   <meta property="og:image:alt" content="Prea Lung! N-am citit! stiri scurte">
   <meta property="og:description" content="Stiri scurte in romana cu rezumat TLDR, context si link catre articolul pe larg.">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="favicon.ico" sizes="any">
-  <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img.png" type="image/png">
+  <link rel="apple-touch-icon" href="img.png">
   <link rel="alternate" type="application/rss+xml" title="TLDR Romania RSS" href="feed.xml">
   <link rel="canonical" href="https://objectivepinta.github.io/tldr/">
 
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#0b0f1a">
+  <meta name="theme-color" content="#132f5f">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T481J83ZX6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-T481J83ZX6');
+  </script>
 </head>
 
 <body>
   <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-wrap">
+        <strong class="topbar-brand">TLDR</strong>
+        <nav class="topbar-nav" id="filter-nav" aria-label="Filtrare stiri"></nav>
+      </div>
+    </div>
     <div class="container header-wrap">
-      <div class="logo-slot" aria-label="Loc rezervat pentru logo">LOGO</div>
+      <div class="logo-slot">
+        <img src="img.png" alt="Logo TLDR" class="site-logo">
+      </div>
       <div>
         <p class="kicker">Stiri scurte in romana</p>
         <h1>Prea Lung! N-am citit! stiri scurte</h1>
         <p class="subtitle">Esentialul zilei, in 20-40 de secunde.</p>
       </div>
-      <div class="header-actions">
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activeaza tema intunecata" aria-pressed="false">Mod intunecat</button>
-      </div>
     </div>
-    <nav class="category-nav container" aria-label="Categorii principale">
-      <a href="#picks">Stirile noastre preferate</a>
-      <a href="#amuzante">Stiri amuzante</a>
-      <a href="#tragedii">Tragedii</a>
-      <a href="#politica">Politica</a>
-      <a href="#tech">Tech</a>
-    </nav>
   </header>
 
   <main class="container" id="news-root">
-    <section id="picks" class="news-section">
-      <h2>Stirile noastre preferate</h2>
-      <p class="section-intro">Selectia redactiei pentru ce conteaza cel mai mult azi.</p>
-      <div class="news-grid" data-category="picks"></div>
-    </section>
-
-    <section id="amuzante" class="news-section">
-      <h2>Stiri amuzante</h2>
-      <div class="news-grid" data-category="funny"></div>
-    </section>
-
-    <section id="tragedii" class="news-section">
-      <h2>Tragedii</h2>
-      <div class="news-grid" data-category="tragedy"></div>
-    </section>
-
-    <section id="politica" class="news-section">
-      <h2>Politica</h2>
-      <div class="news-grid" data-category="politics"></div>
-    </section>
-
-    <section id="tech" class="news-section">
-      <h2>Tech</h2>
-      <div class="news-grid" data-category="tech"></div>
+    <section class="news-feed-section">
+      <h2>Fluxul zilei</h2>
+      <div class="news-list" id="news-list"></div>
     </section>
   </main>
 
   <template id="news-card-template">
-    <article class="news-card">
-      <img class="news-image" src="" alt="">
-      <div class="news-card-content">
-        <p class="news-meta"></p>
-        <h3 class="news-title"></h3>
-        <p class="tldr"></p>
-        <p class="why"></p>
-        <a class="news-link" href="#" target="_blank" rel="noopener noreferrer">Citeste pe larg</a>
-      </div>
+    <article class="news-item">
+      <p class="news-line">
+        <span class="news-rank"></span>
+        <a class="news-link-title" href="#" target="_blank" rel="noopener noreferrer"></a>
+        <span class="news-category-tag"></span>
+      </p>
+      <p class="news-meta"></p>
+      <p class="tldr"></p>
+      <p class="news-sources"></p>
+      <a class="news-link" href="#" target="_blank" rel="noopener noreferrer">Citeste pe larg</a>
     </article>
   </template>
 
@@ -102,7 +87,7 @@
       "@type": "Organization",
       "name": "Prea Lung! N-am citit! stiri scurte",
       "url": "https://objectivepinta.github.io/tldr/",
-      "logo": "https://objectivepinta.github.io/tldr/icon.png"
+      "logo": "https://objectivepinta.github.io/tldr/img.png"
     }
   </script>
   <script src="js/app.js"></script>

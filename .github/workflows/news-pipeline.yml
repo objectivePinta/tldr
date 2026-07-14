@@ -39,5 +39,5 @@ jobs:
           ALLOWED_DOMAINS: ${{ vars.ALLOWED_DOMAINS }}
           BLOCKED_PATTERNS: ${{ vars.BLOCKED_PATTERNS }}
           REDDIT_SUBREDDITS: ${{ vars.REDDIT_SUBREDDITS }}
-        run: node scripts/news-pipeline.js --max-items=8 --commit
+        run: node scripts/news-pipeline.js --max-items=100 --commit
 

@@ -144,21 +144,30 @@ npm run ai:dry-run
 npm run ai:run
 ```
 
-### Configurare AI provider
+### Configurare AI provider (local LLM)
 
-Pipeline-ul foloseste API OpenAI-compatible daca exista cheia `OPENAI_API_KEY`.
-Fara cheie, intra automat in fallback heuristic (tot produce drafturi).
+Pipeline-ul este setat sa foloseasca local **Ollama** (`AI_PROVIDER=ollama`, hardcodat in script).
 
-Poti porni de la `\.env.example` pentru variabilele locale.
+1. Instaleaza Ollama: `https://ollama.com/download`
+2. Porneste serverul Ollama (de regula porneste automat dupa instalare)
+3. Descarca un model local:
 
 ```powershell
-$env:OPENAI_API_KEY="<cheia-ta>"
-$env:OPENAI_MODEL="gpt-4o-mini"
+ollama pull qwen2.5:3b-instruct
+```
+
+4. Ruleaza pipeline-ul:
+
+```powershell
+$env:OLLAMA_BASE_URL="http://127.0.0.1:11434"
+$env:OLLAMA_MODEL="qwen2.5:3b-instruct"
 $env:ALLOWED_DOMAINS="hotnews.ro,digi24.ro,reuters.com,bbc.com,theverge.com,techcrunch.com"
 $env:BLOCKED_PATTERNS="[P],sponsorizat,publicitate,advertorial,parteneriat,promo"
 $env:REDDIT_SUBREDDITS="worldnews,technology,europe"
 npm run ai:run
 ```
+
+Optional: daca vrei sa folosesti OpenAI in loc de local, schimbi provider-ul in `scripts/news-pipeline.js`.
 
 ### Unde adaugi subreddituri
 

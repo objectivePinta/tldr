@@ -2,6 +2,9 @@
   "allowedDomains": [
     "hotnews.ro",
     "digi24.ro",
+    "g4media.ro",
+    "dilema.ro",
+    "libertatea.ro",
     "reddit.com",
     "bbc.com",
     "reuters.com",
@@ -31,6 +34,18 @@
     {
       "name": "Digi24 - Politica",
       "url": "https://www.digi24.ro/rss"
+    },
+    {
+      "name": "G4Media - General",
+      "url": "https://www.g4media.ro/feed"
+    },
+    {
+      "name": "Dilema - Cultura",
+      "url": "https://dilema.ro/cultura/feed"
+    },
+    {
+      "name": "Libertatea - Stiri",
+      "url": "https://www.libertatea.ro/feed"
     }
   ],
   "reddit": []
